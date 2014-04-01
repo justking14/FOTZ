@@ -14,6 +14,7 @@ using System.Collections.Generic;
 public class UIOverlay : MonoBehaviour {
 	private float timeSinceCheck = 0f;
 
+	public Component[] renderers;
 	
 	private float y_offset  = -200;
 	private float x_offset = 30;
@@ -344,13 +345,19 @@ public class UIOverlay : MonoBehaviour {
 				//loop through the array
 				foreach(UnitTB unit in p_units){
 					if(unit.AreAllActionsCompleted()){
-						/*GameObject g = unit.thisObj;
-						Renderer r = g.renderer;
-						r.material.color = Color.grey;*/
+
+						//collect all game objects
+						renderers = unit.thisObj.GetComponentsInChildren<Renderer>();
+						foreach(Renderer r in renderers){
+							r.material.color = Color.grey;
+						}
 						idleUnits--;
 					}
-					else if(false){ //TODO: if the unit has no more moves, cannot use an ability, and cannot attack anyone
-						
+					else{ //TODO: if the unit has no more moves, cannot use an ability, and cannot attack anyone
+						renderers = unit.thisObj.GetComponentsInChildren<Renderer>();
+						foreach(Renderer r in renderers){
+							r.material.color = Color.white;
+						}
 					}
 					//if a unit has moves left, or attacks left, increment idle units
 				}
