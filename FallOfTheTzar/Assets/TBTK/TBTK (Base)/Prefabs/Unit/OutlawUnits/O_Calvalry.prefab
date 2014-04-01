@@ -298,12 +298,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selectSound: {fileID: 0}
   loopMoveSound: 0
-  moveSound: {fileID: 8300000, guid: 5a2a9d95ebe87484f8e50240752c92fc, type: 3}
+  moveSound: {fileID: 0}
   meleeAttackSound: {fileID: 0}
-  rangeAttackSound: {fileID: 8300000, guid: 77e3b9d230a0dee40b6b5f3c9943d4b7, type: 3}
+  rangeAttackSound: {fileID: 0}
   hitSound: {fileID: 0}
   missedSound: {fileID: 0}
-  destroySound: {fileID: 8300000, guid: c0fde5a8556059348a92970707430240, type: 3}
+  destroySound: {fileID: 0}
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
