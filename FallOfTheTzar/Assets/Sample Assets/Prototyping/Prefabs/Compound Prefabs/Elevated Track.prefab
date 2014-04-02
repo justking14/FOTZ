@@ -11,6 +11,7 @@ GameObject:
   - 33: {fileID: 3300000}
   - 23: {fileID: 2300000}
   - 65: {fileID: 6500040}
+  - 95: {fileID: 9500000}
   m_Layer: 0
   m_Name: Pillar 2x8x2
   m_TagString: Untagged
@@ -29,6 +30,7 @@ GameObject:
   - 33: {fileID: 3300002}
   - 23: {fileID: 2300002}
   - 65: {fileID: 6500062}
+  - 95: {fileID: 9500002}
   m_Layer: 0
   m_Name: Pillar 2x8x2
   m_TagString: Untagged
@@ -47,6 +49,7 @@ GameObject:
   - 33: {fileID: 3300004}
   - 23: {fileID: 2300004}
   - 65: {fileID: 6500074}
+  - 95: {fileID: 9500004}
   m_Layer: 0
   m_Name: Pillar 2x8x2
   m_TagString: Untagged
@@ -65,6 +68,7 @@ GameObject:
   - 33: {fileID: 3300006}
   - 23: {fileID: 2300006}
   - 65: {fileID: 6500056}
+  - 95: {fileID: 9500006}
   m_Layer: 0
   m_Name: Pillar 2x8x2
   m_TagString: Untagged
@@ -83,6 +87,7 @@ GameObject:
   - 33: {fileID: 3300008}
   - 23: {fileID: 2300008}
   - 65: {fileID: 6500054}
+  - 95: {fileID: 9500008}
   m_Layer: 0
   m_Name: Pillar 2x8x2
   m_TagString: Untagged
@@ -101,6 +106,7 @@ GameObject:
   - 33: {fileID: 3300010}
   - 23: {fileID: 2300010}
   - 65: {fileID: 6500014}
+  - 95: {fileID: 9500010}
   m_Layer: 0
   m_Name: Pillar 2x8x2
   m_TagString: Untagged
@@ -119,6 +125,7 @@ GameObject:
   - 33: {fileID: 3300012}
   - 23: {fileID: 2300012}
   - 65: {fileID: 6500070}
+  - 95: {fileID: 9500012}
   m_Layer: 0
   m_Name: Pillar 2x8x2
   m_TagString: Untagged
@@ -137,6 +144,7 @@ GameObject:
   - 33: {fileID: 3300014}
   - 23: {fileID: 2300014}
   - 65: {fileID: 6500030}
+  - 95: {fileID: 9500014}
   m_Layer: 0
   m_Name: Pillar 2x8x2
   m_TagString: Untagged
@@ -155,6 +163,7 @@ GameObject:
   - 33: {fileID: 3300016}
   - 23: {fileID: 2300016}
   - 65: {fileID: 6500032}
+  - 95: {fileID: 9500016}
   m_Layer: 0
   m_Name: Pillar 2x8x2
   m_TagString: Untagged
@@ -173,6 +182,7 @@ GameObject:
   - 33: {fileID: 3300018}
   - 23: {fileID: 2300018}
   - 65: {fileID: 6500010}
+  - 95: {fileID: 9500018}
   m_Layer: 0
   m_Name: Pillar 2x8x2
   m_TagString: Untagged
@@ -191,6 +201,7 @@ GameObject:
   - 33: {fileID: 3300020}
   - 23: {fileID: 2300020}
   - 65: {fileID: 6500012}
+  - 95: {fileID: 9500020}
   m_Layer: 0
   m_Name: Pillar 2x8x2
   m_TagString: Untagged
@@ -209,6 +220,7 @@ GameObject:
   - 33: {fileID: 3300022}
   - 23: {fileID: 2300022}
   - 65: {fileID: 6500000}
+  - 95: {fileID: 9500022}
   m_Layer: 0
   m_Name: Pillar 2x8x2
   m_TagString: Untagged
@@ -227,6 +239,7 @@ GameObject:
   - 33: {fileID: 3300024}
   - 23: {fileID: 2300024}
   - 65: {fileID: 6500002}
+  - 95: {fileID: 9500024}
   m_Layer: 0
   m_Name: Pillar 2x8x2
   m_TagString: Untagged
@@ -245,6 +258,7 @@ GameObject:
   - 33: {fileID: 3300026}
   - 23: {fileID: 2300026}
   - 65: {fileID: 6500006}
+  - 95: {fileID: 9500026}
   m_Layer: 0
   m_Name: Pillar 2x8x2
   m_TagString: Untagged
@@ -263,6 +277,7 @@ GameObject:
   - 33: {fileID: 3300028}
   - 23: {fileID: 2300028}
   - 65: {fileID: 6500008}
+  - 95: {fileID: 9500028}
   m_Layer: 0
   m_Name: Pillar 2x8x2
   m_TagString: Untagged
@@ -281,6 +296,7 @@ GameObject:
   - 33: {fileID: 3300030}
   - 23: {fileID: 2300030}
   - 65: {fileID: 6500076}
+  - 95: {fileID: 9500030}
   m_Layer: 0
   m_Name: Pillar 2x8x2
   m_TagString: Untagged
@@ -299,6 +315,7 @@ GameObject:
   - 33: {fileID: 3300032}
   - 23: {fileID: 2300032}
   - 65: {fileID: 6500004}
+  - 95: {fileID: 9500032}
   m_Layer: 0
   m_Name: Pillar 2x8x2
   m_TagString: Untagged
@@ -317,6 +334,7 @@ GameObject:
   - 33: {fileID: 3300034}
   - 23: {fileID: 2300034}
   - 65: {fileID: 6500060}
+  - 95: {fileID: 9500034}
   m_Layer: 0
   m_Name: Platform 2x1x2
   m_TagString: Untagged
@@ -335,6 +353,7 @@ GameObject:
   - 33: {fileID: 3300036}
   - 23: {fileID: 2300036}
   - 65: {fileID: 6500078}
+  - 95: {fileID: 9500036}
   m_Layer: 0
   m_Name: Platform 2x1x2
   m_TagString: Untagged
@@ -353,6 +372,7 @@ GameObject:
   - 33: {fileID: 3300038}
   - 23: {fileID: 2300038}
   - 65: {fileID: 6500072}
+  - 95: {fileID: 9500038}
   m_Layer: 0
   m_Name: Platform 2x1x2
   m_TagString: Untagged
@@ -371,6 +391,7 @@ GameObject:
   - 33: {fileID: 3300040}
   - 23: {fileID: 2300040}
   - 65: {fileID: 6500024}
+  - 95: {fileID: 9500040}
   m_Layer: 0
   m_Name: Platform 2x1x2
   m_TagString: Untagged
@@ -389,6 +410,7 @@ GameObject:
   - 33: {fileID: 3300042}
   - 23: {fileID: 2300042}
   - 65: {fileID: 6500044}
+  - 95: {fileID: 9500042}
   m_Layer: 0
   m_Name: Platform 2x1x2
   m_TagString: Untagged
@@ -407,6 +429,7 @@ GameObject:
   - 33: {fileID: 3300044}
   - 23: {fileID: 2300044}
   - 65: {fileID: 6500028}
+  - 95: {fileID: 9500044}
   m_Layer: 0
   m_Name: Platform 2x1x2
   m_TagString: Untagged
@@ -425,6 +448,7 @@ GameObject:
   - 33: {fileID: 3300046}
   - 23: {fileID: 2300046}
   - 65: {fileID: 6500086}
+  - 95: {fileID: 9500046}
   m_Layer: 0
   m_Name: Platform 2x1x2
   m_TagString: Untagged
@@ -443,6 +467,7 @@ GameObject:
   - 33: {fileID: 3300048}
   - 23: {fileID: 2300048}
   - 65: {fileID: 6500058}
+  - 95: {fileID: 9500048}
   m_Layer: 0
   m_Name: Platform 2x1x2
   m_TagString: Untagged
@@ -461,6 +486,7 @@ GameObject:
   - 33: {fileID: 3300050}
   - 23: {fileID: 2300050}
   - 65: {fileID: 6500080}
+  - 95: {fileID: 9500050}
   m_Layer: 0
   m_Name: Platform 2x1x2
   m_TagString: Untagged
@@ -479,6 +505,7 @@ GameObject:
   - 33: {fileID: 3300052}
   - 23: {fileID: 2300052}
   - 65: {fileID: 6500022}
+  - 95: {fileID: 9500052}
   m_Layer: 0
   m_Name: Platform 2x1x2
   m_TagString: Untagged
@@ -497,6 +524,7 @@ GameObject:
   - 33: {fileID: 3300054}
   - 23: {fileID: 2300054}
   - 65: {fileID: 6500036}
+  - 95: {fileID: 9500054}
   m_Layer: 0
   m_Name: Platform 8x1x8
   m_TagString: Untagged
@@ -515,6 +543,7 @@ GameObject:
   - 33: {fileID: 3300056}
   - 23: {fileID: 2300056}
   - 65: {fileID: 6500052}
+  - 95: {fileID: 9500056}
   m_Layer: 0
   m_Name: Platform 8x1x8
   m_TagString: Untagged
@@ -533,6 +562,7 @@ GameObject:
   - 33: {fileID: 3300058}
   - 23: {fileID: 2300058}
   - 65: {fileID: 6500082}
+  - 95: {fileID: 9500058}
   m_Layer: 0
   m_Name: Platform 8x1x8
   m_TagString: Untagged
@@ -551,6 +581,7 @@ GameObject:
   - 33: {fileID: 3300060}
   - 23: {fileID: 2300060}
   - 65: {fileID: 6500084}
+  - 95: {fileID: 9500060}
   m_Layer: 0
   m_Name: Platform 8x1x8
   m_TagString: Untagged
@@ -569,6 +600,7 @@ GameObject:
   - 33: {fileID: 3300062}
   - 23: {fileID: 2300062}
   - 65: {fileID: 6500042}
+  - 95: {fileID: 9500062}
   m_Layer: 0
   m_Name: Platform 8x1x8
   m_TagString: Untagged
@@ -587,6 +619,7 @@ GameObject:
   - 33: {fileID: 3300064}
   - 23: {fileID: 2300064}
   - 65: {fileID: 6500064}
+  - 95: {fileID: 9500064}
   m_Layer: 0
   m_Name: Platform 8x1x8
   m_TagString: Untagged
@@ -605,6 +638,7 @@ GameObject:
   - 33: {fileID: 3300066}
   - 23: {fileID: 2300066}
   - 65: {fileID: 6500046}
+  - 95: {fileID: 9500066}
   m_Layer: 0
   m_Name: Platform 8x1x8
   m_TagString: Untagged
@@ -623,6 +657,7 @@ GameObject:
   - 33: {fileID: 3300068}
   - 23: {fileID: 2300068}
   - 65: {fileID: 6500048}
+  - 95: {fileID: 9500068}
   m_Layer: 0
   m_Name: Platform 8x1x8
   m_TagString: Untagged
@@ -641,6 +676,7 @@ GameObject:
   - 33: {fileID: 3300070}
   - 23: {fileID: 2300070}
   - 65: {fileID: 6500066}
+  - 95: {fileID: 9500070}
   m_Layer: 0
   m_Name: Platform 8x1x8
   m_TagString: Untagged
@@ -659,6 +695,7 @@ GameObject:
   - 33: {fileID: 3300072}
   - 23: {fileID: 2300072}
   - 65: {fileID: 6500020}
+  - 95: {fileID: 9500072}
   m_Layer: 0
   m_Name: Platform 8x1x8
   m_TagString: Untagged
@@ -677,6 +714,7 @@ GameObject:
   - 33: {fileID: 3300074}
   - 23: {fileID: 2300074}
   - 65: {fileID: 6500016}
+  - 95: {fileID: 9500074}
   m_Layer: 0
   m_Name: Platform 8x1x8
   m_TagString: Untagged
@@ -695,6 +733,7 @@ GameObject:
   - 33: {fileID: 3300076}
   - 23: {fileID: 2300076}
   - 65: {fileID: 6500018}
+  - 95: {fileID: 9500076}
   m_Layer: 0
   m_Name: Platform 8x1x8
   m_TagString: Untagged
@@ -713,6 +752,7 @@ GameObject:
   - 33: {fileID: 3300078}
   - 23: {fileID: 2300078}
   - 65: {fileID: 6500026}
+  - 95: {fileID: 9500078}
   m_Layer: 0
   m_Name: Platform 8x1x8
   m_TagString: Untagged
@@ -731,6 +771,7 @@ GameObject:
   - 33: {fileID: 3300080}
   - 23: {fileID: 2300080}
   - 65: {fileID: 6500050}
+  - 95: {fileID: 9500080}
   m_Layer: 0
   m_Name: Platform 8x1x8
   m_TagString: Untagged
@@ -749,6 +790,7 @@ GameObject:
   - 33: {fileID: 3300082}
   - 23: {fileID: 2300082}
   - 65: {fileID: 6500034}
+  - 95: {fileID: 9500082}
   m_Layer: 0
   m_Name: Platform 8x1x8
   m_TagString: Untagged
@@ -767,6 +809,7 @@ GameObject:
   - 33: {fileID: 3300084}
   - 23: {fileID: 2300084}
   - 65: {fileID: 6500038}
+  - 95: {fileID: 9500084}
   m_Layer: 0
   m_Name: Platform 8x1x8
   m_TagString: Untagged
@@ -785,6 +828,7 @@ GameObject:
   - 33: {fileID: 3300086}
   - 23: {fileID: 2300086}
   - 65: {fileID: 6500068}
+  - 95: {fileID: 9500086}
   m_Layer: 0
   m_Name: Platform 8x1x8
   m_TagString: Untagged
@@ -803,6 +847,7 @@ GameObject:
   - 33: {fileID: 3300088}
   - 23: {fileID: 2300088}
   - 64: {fileID: 6400000}
+  - 95: {fileID: 9500088}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -821,6 +866,7 @@ GameObject:
   - 33: {fileID: 3300090}
   - 23: {fileID: 2300090}
   - 64: {fileID: 6400064}
+  - 95: {fileID: 9500090}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -839,6 +885,7 @@ GameObject:
   - 33: {fileID: 3300092}
   - 23: {fileID: 2300092}
   - 64: {fileID: 6400070}
+  - 95: {fileID: 9500092}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -857,6 +904,7 @@ GameObject:
   - 33: {fileID: 3300094}
   - 23: {fileID: 2300094}
   - 64: {fileID: 6400078}
+  - 95: {fileID: 9500094}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -875,6 +923,7 @@ GameObject:
   - 33: {fileID: 3300096}
   - 23: {fileID: 2300096}
   - 64: {fileID: 6400054}
+  - 95: {fileID: 9500096}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -893,6 +942,7 @@ GameObject:
   - 33: {fileID: 3300098}
   - 23: {fileID: 2300098}
   - 64: {fileID: 6400010}
+  - 95: {fileID: 9500098}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -911,6 +961,7 @@ GameObject:
   - 33: {fileID: 3300100}
   - 23: {fileID: 2300100}
   - 64: {fileID: 6400080}
+  - 95: {fileID: 9500100}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -929,6 +980,7 @@ GameObject:
   - 33: {fileID: 3300102}
   - 23: {fileID: 2300102}
   - 64: {fileID: 6400052}
+  - 95: {fileID: 9500102}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -947,6 +999,7 @@ GameObject:
   - 33: {fileID: 3300104}
   - 23: {fileID: 2300104}
   - 64: {fileID: 6400028}
+  - 95: {fileID: 9500104}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -965,6 +1018,7 @@ GameObject:
   - 33: {fileID: 3300106}
   - 23: {fileID: 2300106}
   - 64: {fileID: 6400024}
+  - 95: {fileID: 9500106}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -983,6 +1037,7 @@ GameObject:
   - 33: {fileID: 3300108}
   - 23: {fileID: 2300108}
   - 64: {fileID: 6400016}
+  - 95: {fileID: 9500108}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1001,6 +1056,7 @@ GameObject:
   - 33: {fileID: 3300110}
   - 23: {fileID: 2300110}
   - 64: {fileID: 6400046}
+  - 95: {fileID: 9500110}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1019,6 +1075,7 @@ GameObject:
   - 33: {fileID: 3300112}
   - 23: {fileID: 2300112}
   - 64: {fileID: 6400036}
+  - 95: {fileID: 9500112}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1037,6 +1094,7 @@ GameObject:
   - 33: {fileID: 3300114}
   - 23: {fileID: 2300114}
   - 64: {fileID: 6400018}
+  - 95: {fileID: 9500114}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1055,6 +1113,7 @@ GameObject:
   - 33: {fileID: 3300116}
   - 23: {fileID: 2300116}
   - 64: {fileID: 6400008}
+  - 95: {fileID: 9500116}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1073,6 +1132,7 @@ GameObject:
   - 33: {fileID: 3300118}
   - 23: {fileID: 2300118}
   - 64: {fileID: 6400048}
+  - 95: {fileID: 9500118}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1091,6 +1151,7 @@ GameObject:
   - 33: {fileID: 3300120}
   - 23: {fileID: 2300120}
   - 64: {fileID: 6400068}
+  - 95: {fileID: 9500120}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1109,6 +1170,7 @@ GameObject:
   - 33: {fileID: 3300122}
   - 23: {fileID: 2300122}
   - 64: {fileID: 6400012}
+  - 95: {fileID: 9500122}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1127,6 +1189,7 @@ GameObject:
   - 33: {fileID: 3300124}
   - 23: {fileID: 2300124}
   - 64: {fileID: 6400082}
+  - 95: {fileID: 9500124}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1145,6 +1208,7 @@ GameObject:
   - 33: {fileID: 3300126}
   - 23: {fileID: 2300126}
   - 64: {fileID: 6400040}
+  - 95: {fileID: 9500126}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1163,6 +1227,7 @@ GameObject:
   - 33: {fileID: 3300128}
   - 23: {fileID: 2300128}
   - 64: {fileID: 6400042}
+  - 95: {fileID: 9500128}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1181,6 +1246,7 @@ GameObject:
   - 33: {fileID: 3300130}
   - 23: {fileID: 2300130}
   - 64: {fileID: 6400034}
+  - 95: {fileID: 9500130}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1199,6 +1265,7 @@ GameObject:
   - 33: {fileID: 3300132}
   - 23: {fileID: 2300132}
   - 64: {fileID: 6400038}
+  - 95: {fileID: 9500132}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1217,6 +1284,7 @@ GameObject:
   - 33: {fileID: 3300134}
   - 23: {fileID: 2300134}
   - 64: {fileID: 6400050}
+  - 95: {fileID: 9500134}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1235,6 +1303,7 @@ GameObject:
   - 33: {fileID: 3300136}
   - 23: {fileID: 2300136}
   - 64: {fileID: 6400044}
+  - 95: {fileID: 9500136}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1268,6 +1337,7 @@ GameObject:
   - 33: {fileID: 3300138}
   - 23: {fileID: 2300138}
   - 64: {fileID: 6400006}
+  - 95: {fileID: 9500138}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1286,6 +1356,7 @@ GameObject:
   - 33: {fileID: 3300140}
   - 23: {fileID: 2300140}
   - 64: {fileID: 6400030}
+  - 95: {fileID: 9500140}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1304,6 +1375,7 @@ GameObject:
   - 33: {fileID: 3300142}
   - 23: {fileID: 2300142}
   - 64: {fileID: 6400074}
+  - 95: {fileID: 9500142}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1322,6 +1394,7 @@ GameObject:
   - 33: {fileID: 3300144}
   - 23: {fileID: 2300144}
   - 64: {fileID: 6400032}
+  - 95: {fileID: 9500144}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1340,6 +1413,7 @@ GameObject:
   - 33: {fileID: 3300146}
   - 23: {fileID: 2300146}
   - 64: {fileID: 6400014}
+  - 95: {fileID: 9500146}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1358,6 +1432,7 @@ GameObject:
   - 33: {fileID: 3300148}
   - 23: {fileID: 2300148}
   - 64: {fileID: 6400004}
+  - 95: {fileID: 9500148}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1376,6 +1451,7 @@ GameObject:
   - 33: {fileID: 3300150}
   - 23: {fileID: 2300150}
   - 64: {fileID: 6400056}
+  - 95: {fileID: 9500150}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1394,6 +1470,7 @@ GameObject:
   - 33: {fileID: 3300152}
   - 23: {fileID: 2300152}
   - 64: {fileID: 6400066}
+  - 95: {fileID: 9500152}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1412,6 +1489,7 @@ GameObject:
   - 33: {fileID: 3300154}
   - 23: {fileID: 2300154}
   - 64: {fileID: 6400022}
+  - 95: {fileID: 9500154}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1430,6 +1508,7 @@ GameObject:
   - 33: {fileID: 3300156}
   - 23: {fileID: 2300156}
   - 64: {fileID: 6400058}
+  - 95: {fileID: 9500156}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1448,6 +1527,7 @@ GameObject:
   - 33: {fileID: 3300158}
   - 23: {fileID: 2300158}
   - 64: {fileID: 6400060}
+  - 95: {fileID: 9500158}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1466,6 +1546,7 @@ GameObject:
   - 33: {fileID: 3300160}
   - 23: {fileID: 2300160}
   - 64: {fileID: 6400062}
+  - 95: {fileID: 9500160}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1484,6 +1565,7 @@ GameObject:
   - 33: {fileID: 3300162}
   - 23: {fileID: 2300162}
   - 64: {fileID: 6400076}
+  - 95: {fileID: 9500162}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1502,6 +1584,7 @@ GameObject:
   - 33: {fileID: 3300164}
   - 23: {fileID: 2300164}
   - 64: {fileID: 6400072}
+  - 95: {fileID: 9500164}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1520,6 +1603,7 @@ GameObject:
   - 33: {fileID: 3300166}
   - 23: {fileID: 2300166}
   - 64: {fileID: 6400020}
+  - 95: {fileID: 9500166}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1538,6 +1622,7 @@ GameObject:
   - 33: {fileID: 3300168}
   - 23: {fileID: 2300168}
   - 64: {fileID: 6400026}
+  - 95: {fileID: 9500168}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -1556,6 +1641,7 @@ GameObject:
   - 33: {fileID: 3300170}
   - 23: {fileID: 2300170}
   - 64: {fileID: 6400002}
+  - 95: {fileID: 9500170}
   m_Layer: 0
   m_Name: Ramp 4x2x2
   m_TagString: Untagged
@@ -2624,9 +2710,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300002
 Renderer:
   m_ObjectHideFlags: 1
@@ -2645,9 +2728,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300004
 Renderer:
   m_ObjectHideFlags: 1
@@ -2666,9 +2746,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300006
 Renderer:
   m_ObjectHideFlags: 1
@@ -2687,9 +2764,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300008
 Renderer:
   m_ObjectHideFlags: 1
@@ -2708,9 +2782,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300010
 Renderer:
   m_ObjectHideFlags: 1
@@ -2729,9 +2800,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300012
 Renderer:
   m_ObjectHideFlags: 1
@@ -2750,9 +2818,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300014
 Renderer:
   m_ObjectHideFlags: 1
@@ -2771,9 +2836,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300016
 Renderer:
   m_ObjectHideFlags: 1
@@ -2792,9 +2854,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300018
 Renderer:
   m_ObjectHideFlags: 1
@@ -2813,9 +2872,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300020
 Renderer:
   m_ObjectHideFlags: 1
@@ -2834,9 +2890,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300022
 Renderer:
   m_ObjectHideFlags: 1
@@ -2855,9 +2908,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300024
 Renderer:
   m_ObjectHideFlags: 1
@@ -2876,9 +2926,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300026
 Renderer:
   m_ObjectHideFlags: 1
@@ -2897,9 +2944,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300028
 Renderer:
   m_ObjectHideFlags: 1
@@ -2918,9 +2962,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300030
 Renderer:
   m_ObjectHideFlags: 1
@@ -2939,9 +2980,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300032
 Renderer:
   m_ObjectHideFlags: 1
@@ -2960,9 +2998,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300034
 Renderer:
   m_ObjectHideFlags: 1
@@ -2981,9 +3016,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300036
 Renderer:
   m_ObjectHideFlags: 1
@@ -3002,9 +3034,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300038
 Renderer:
   m_ObjectHideFlags: 1
@@ -3023,9 +3052,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300040
 Renderer:
   m_ObjectHideFlags: 1
@@ -3044,9 +3070,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300042
 Renderer:
   m_ObjectHideFlags: 1
@@ -3065,9 +3088,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300044
 Renderer:
   m_ObjectHideFlags: 1
@@ -3086,9 +3106,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300046
 Renderer:
   m_ObjectHideFlags: 1
@@ -3107,9 +3124,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300048
 Renderer:
   m_ObjectHideFlags: 1
@@ -3128,9 +3142,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300050
 Renderer:
   m_ObjectHideFlags: 1
@@ -3149,9 +3160,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300052
 Renderer:
   m_ObjectHideFlags: 1
@@ -3170,9 +3178,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300054
 Renderer:
   m_ObjectHideFlags: 1
@@ -3191,9 +3196,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300056
 Renderer:
   m_ObjectHideFlags: 1
@@ -3212,9 +3214,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300058
 Renderer:
   m_ObjectHideFlags: 1
@@ -3233,9 +3232,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300060
 Renderer:
   m_ObjectHideFlags: 1
@@ -3254,9 +3250,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300062
 Renderer:
   m_ObjectHideFlags: 1
@@ -3275,9 +3268,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300064
 Renderer:
   m_ObjectHideFlags: 1
@@ -3296,9 +3286,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300066
 Renderer:
   m_ObjectHideFlags: 1
@@ -3317,9 +3304,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300068
 Renderer:
   m_ObjectHideFlags: 1
@@ -3338,9 +3322,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300070
 Renderer:
   m_ObjectHideFlags: 1
@@ -3359,9 +3340,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300072
 Renderer:
   m_ObjectHideFlags: 1
@@ -3380,9 +3358,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300074
 Renderer:
   m_ObjectHideFlags: 1
@@ -3401,9 +3376,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300076
 Renderer:
   m_ObjectHideFlags: 1
@@ -3422,9 +3394,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300078
 Renderer:
   m_ObjectHideFlags: 1
@@ -3443,9 +3412,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300080
 Renderer:
   m_ObjectHideFlags: 1
@@ -3464,9 +3430,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300082
 Renderer:
   m_ObjectHideFlags: 1
@@ -3485,9 +3448,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300084
 Renderer:
   m_ObjectHideFlags: 1
@@ -3506,9 +3466,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300086
 Renderer:
   m_ObjectHideFlags: 1
@@ -3527,9 +3484,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300088
 Renderer:
   m_ObjectHideFlags: 1
@@ -3548,9 +3502,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300090
 Renderer:
   m_ObjectHideFlags: 1
@@ -3569,9 +3520,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300092
 Renderer:
   m_ObjectHideFlags: 1
@@ -3590,9 +3538,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300094
 Renderer:
   m_ObjectHideFlags: 1
@@ -3611,9 +3556,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300096
 Renderer:
   m_ObjectHideFlags: 1
@@ -3632,9 +3574,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300098
 Renderer:
   m_ObjectHideFlags: 1
@@ -3653,9 +3592,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300100
 Renderer:
   m_ObjectHideFlags: 1
@@ -3674,9 +3610,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300102
 Renderer:
   m_ObjectHideFlags: 1
@@ -3695,9 +3628,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300104
 Renderer:
   m_ObjectHideFlags: 1
@@ -3716,9 +3646,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300106
 Renderer:
   m_ObjectHideFlags: 1
@@ -3737,9 +3664,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300108
 Renderer:
   m_ObjectHideFlags: 1
@@ -3758,9 +3682,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300110
 Renderer:
   m_ObjectHideFlags: 1
@@ -3779,9 +3700,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300112
 Renderer:
   m_ObjectHideFlags: 1
@@ -3800,9 +3718,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300114
 Renderer:
   m_ObjectHideFlags: 1
@@ -3821,9 +3736,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300116
 Renderer:
   m_ObjectHideFlags: 1
@@ -3842,9 +3754,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300118
 Renderer:
   m_ObjectHideFlags: 1
@@ -3863,9 +3772,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300120
 Renderer:
   m_ObjectHideFlags: 1
@@ -3884,9 +3790,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300122
 Renderer:
   m_ObjectHideFlags: 1
@@ -3905,9 +3808,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300124
 Renderer:
   m_ObjectHideFlags: 1
@@ -3926,9 +3826,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300126
 Renderer:
   m_ObjectHideFlags: 1
@@ -3947,9 +3844,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300128
 Renderer:
   m_ObjectHideFlags: 1
@@ -3968,9 +3862,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300130
 Renderer:
   m_ObjectHideFlags: 1
@@ -3989,9 +3880,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300132
 Renderer:
   m_ObjectHideFlags: 1
@@ -4010,9 +3898,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300134
 Renderer:
   m_ObjectHideFlags: 1
@@ -4031,9 +3916,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300136
 Renderer:
   m_ObjectHideFlags: 1
@@ -4052,9 +3934,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300138
 Renderer:
   m_ObjectHideFlags: 1
@@ -4073,9 +3952,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300140
 Renderer:
   m_ObjectHideFlags: 1
@@ -4094,9 +3970,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300142
 Renderer:
   m_ObjectHideFlags: 1
@@ -4115,9 +3988,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300144
 Renderer:
   m_ObjectHideFlags: 1
@@ -4136,9 +4006,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300146
 Renderer:
   m_ObjectHideFlags: 1
@@ -4157,9 +4024,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300148
 Renderer:
   m_ObjectHideFlags: 1
@@ -4178,9 +4042,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300150
 Renderer:
   m_ObjectHideFlags: 1
@@ -4199,9 +4060,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300152
 Renderer:
   m_ObjectHideFlags: 1
@@ -4220,9 +4078,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300154
 Renderer:
   m_ObjectHideFlags: 1
@@ -4241,9 +4096,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300156
 Renderer:
   m_ObjectHideFlags: 1
@@ -4262,9 +4114,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300158
 Renderer:
   m_ObjectHideFlags: 1
@@ -4283,9 +4132,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300160
 Renderer:
   m_ObjectHideFlags: 1
@@ -4304,9 +4150,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300162
 Renderer:
   m_ObjectHideFlags: 1
@@ -4325,9 +4168,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300164
 Renderer:
   m_ObjectHideFlags: 1
@@ -4346,9 +4186,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300166
 Renderer:
   m_ObjectHideFlags: 1
@@ -4367,9 +4204,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300168
 Renderer:
   m_ObjectHideFlags: 1
@@ -4388,9 +4222,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!23 &2300170
 Renderer:
   m_ObjectHideFlags: 1
@@ -4409,9 +4240,6 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortingLayerID: 0
 --- !u!33 &3300000
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -6090,8 +5918,7 @@ BoxCollider:
   m_Center: {x: 0, y: -.50000006, z: 0}
 --- !u!95 &9500000
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
@@ -6101,11 +5928,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500002
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
@@ -6115,11 +5940,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500004
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
@@ -6129,11 +5952,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500006
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
@@ -6143,11 +5964,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500008
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100008}
@@ -6157,11 +5976,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500010
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100010}
@@ -6171,11 +5988,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500012
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100012}
@@ -6185,11 +6000,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500014
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100014}
@@ -6199,11 +6012,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500016
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100016}
@@ -6213,11 +6024,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500018
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100018}
@@ -6227,11 +6036,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500020
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100020}
@@ -6241,11 +6048,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500022
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100022}
@@ -6255,11 +6060,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500024
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100024}
@@ -6269,11 +6072,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500026
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100026}
@@ -6283,11 +6084,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500028
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100028}
@@ -6297,11 +6096,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500030
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100030}
@@ -6311,11 +6108,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500032
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100032}
@@ -6325,11 +6120,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500034
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100034}
@@ -6339,11 +6132,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500036
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100036}
@@ -6353,11 +6144,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500038
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100038}
@@ -6367,11 +6156,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500040
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100040}
@@ -6381,11 +6168,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500042
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100042}
@@ -6395,11 +6180,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500044
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100044}
@@ -6409,11 +6192,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500046
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100046}
@@ -6423,11 +6204,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500048
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100048}
@@ -6437,11 +6216,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500050
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100050}
@@ -6451,11 +6228,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500052
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100052}
@@ -6465,11 +6240,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500054
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100054}
@@ -6479,11 +6252,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500056
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100056}
@@ -6493,11 +6264,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500058
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100058}
@@ -6507,11 +6276,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500060
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100060}
@@ -6521,11 +6288,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500062
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100062}
@@ -6535,11 +6300,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500064
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100064}
@@ -6549,11 +6312,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500066
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100066}
@@ -6563,11 +6324,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500068
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100068}
@@ -6577,11 +6336,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500070
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100070}
@@ -6591,11 +6348,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500072
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100072}
@@ -6605,11 +6360,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500074
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100074}
@@ -6619,11 +6372,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500076
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100076}
@@ -6633,11 +6384,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500078
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100078}
@@ -6647,11 +6396,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500080
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100080}
@@ -6661,11 +6408,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500082
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100082}
@@ -6675,11 +6420,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500084
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100084}
@@ -6689,11 +6432,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500086
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100086}
@@ -6703,11 +6444,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500088
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100088}
@@ -6717,11 +6456,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500090
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100090}
@@ -6731,11 +6468,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500092
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100092}
@@ -6745,11 +6480,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500094
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100094}
@@ -6759,11 +6492,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500096
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100096}
@@ -6773,11 +6504,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500098
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100098}
@@ -6787,11 +6516,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500100
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100100}
@@ -6801,11 +6528,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500102
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100102}
@@ -6815,11 +6540,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500104
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100104}
@@ -6829,11 +6552,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500106
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100106}
@@ -6843,11 +6564,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500108
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100108}
@@ -6857,11 +6576,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500110
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100110}
@@ -6871,11 +6588,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500112
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100112}
@@ -6885,11 +6600,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500114
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100114}
@@ -6899,11 +6612,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500116
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100116}
@@ -6913,11 +6624,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500118
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100118}
@@ -6927,11 +6636,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500120
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100120}
@@ -6941,11 +6648,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500122
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100122}
@@ -6955,11 +6660,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500124
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100124}
@@ -6969,11 +6672,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500126
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100126}
@@ -6983,11 +6684,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500128
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100128}
@@ -6997,11 +6696,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500130
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100130}
@@ -7011,11 +6708,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500132
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100132}
@@ -7025,11 +6720,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500134
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100134}
@@ -7039,11 +6732,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500136
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100136}
@@ -7053,11 +6744,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500138
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100140}
@@ -7067,11 +6756,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500140
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100142}
@@ -7081,11 +6768,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500142
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100144}
@@ -7095,11 +6780,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500144
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100146}
@@ -7109,11 +6792,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500146
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100148}
@@ -7123,11 +6804,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500148
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100150}
@@ -7137,11 +6816,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500150
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100152}
@@ -7151,11 +6828,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500152
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100154}
@@ -7165,11 +6840,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500154
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100156}
@@ -7179,11 +6852,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500156
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100158}
@@ -7193,11 +6864,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500158
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100160}
@@ -7207,11 +6876,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500160
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100162}
@@ -7221,11 +6888,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500162
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100164}
@@ -7235,11 +6900,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500164
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100166}
@@ -7249,11 +6912,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500166
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100168}
@@ -7263,11 +6924,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500168
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100170}
@@ -7277,11 +6936,9 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!95 &9500170
 Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100172}
@@ -7291,7 +6948,6 @@ Animator:
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
