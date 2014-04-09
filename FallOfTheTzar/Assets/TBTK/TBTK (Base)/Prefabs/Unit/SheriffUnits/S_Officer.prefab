@@ -2392,7 +2392,7 @@ MonoBehaviour:
   movementDisabled: 0
   abilityDisabled: 0
   defaultFactionID: -1
-  abilityIDList: 1300000012000000160000001d000000150000001b000000
+  abilityIDList: 13000000160000001d000000
   unitAbilityList: []
   attackerList: []
   triggered: 0
