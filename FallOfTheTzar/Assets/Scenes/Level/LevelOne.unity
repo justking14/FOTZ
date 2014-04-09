@@ -1887,7 +1887,7 @@ MonoBehaviour:
   m_Script: {fileID: -1229025713, guid: b5a7519e94754fb4a8ea0c272031db78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialDatabase: {fileID: 11400000, guid: 5d6237aeba357a544b68fef0a7ab0fc2, type: 2}
+  initialDatabase: {fileID: 11400000, guid: 7b7c457fe5ba6a74e9e2220324d1add0, type: 2}
   displaySettings:
     dialogueUI: {fileID: 100028, guid: d8b7ad2f5175dc445ba6d9fd8f7112ce, type: 2}
     localizationSettings:
@@ -11957,7 +11957,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 513605177}
-  - 114: {fileID: 513605176}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -11965,21 +11964,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &513605176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 513605175}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -479791062, guid: b5a7519e94754fb4a8ea0c272031db78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trigger: 2
-  once: 0
-  onStart: []
-  onEnd: []
 --- !u!4 &513605177
 Transform:
   m_ObjectHideFlags: 0
