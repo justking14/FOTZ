@@ -237,6 +237,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400026}
   - 114: {fileID: 11400004}
+  - 114: {fileID: 11400058}
   m_Layer: 0
   m_Name: Necromancer Dialogue UI
   m_TagString: Untagged
@@ -2494,6 +2495,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trigger: 0
   interval: .5
+--- !u!114 &11400058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1413299683, guid: b5a7519e94754fb4a8ea0c272031db78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: 0
+  charactersPerSecond: 50
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

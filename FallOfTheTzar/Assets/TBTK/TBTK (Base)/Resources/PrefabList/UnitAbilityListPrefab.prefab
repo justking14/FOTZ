@@ -1545,7 +1545,7 @@ MonoBehaviour:
     iconUnavailableName: 
     targetType: 2
     requireTargetSelection: 1
-    enableMovementAfter: 1
+    enableMovementAfter: 0
     enableAttackAfter: 0
     factionID: 0
     canMiss: 0
