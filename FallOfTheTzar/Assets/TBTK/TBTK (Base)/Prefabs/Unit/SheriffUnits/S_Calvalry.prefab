@@ -321,7 +321,7 @@ MonoBehaviour:
   icon: {fileID: 2800000, guid: 8a705af3ec94cec46bcb2e211a471bf6, type: 3}
   iconName: Radioactive_BW
   prefabID: 15
-  unitName: Sheriff Calvalry
+  unitName: Calvalry
   desp: Description for unit....
   factionID: 1
   faction:

@@ -181,7 +181,6 @@ public enum _AttackMode{Melee, Range, Hybrid}
 [RequireComponent (typeof (UnitTBAnimation))]
 
 public class UnitTB : MonoBehaviour {
-
 	/*
 	//animation testing
 	void Update(){
@@ -199,7 +198,6 @@ public class UnitTB : MonoBehaviour {
 		}
 	}
 	*/
-
 	public delegate void UnitSelectedHandler(UnitTB unit);
 	public static event UnitSelectedHandler onUnitSelectedE;
 	
@@ -1486,6 +1484,7 @@ public class UnitTB : MonoBehaviour {
 
 #if ibox
 	public bool AreAllActionsCompleted(){ //custom version of method, slightly different, does not account for unused attacks if they are out of range
+
 		//for different ruleset in which ap is used for either movement or attack
 		bool movementRuleFlag=(GameControlTB.MovementAPCostRule()!=_MovementAPCostRule.None);
 		bool attackRuleFlag=(GameControlTB.AttackAPCostRule()!=_AttackAPCostRule.None);

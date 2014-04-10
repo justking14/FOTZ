@@ -10897,7 +10897,7 @@ MonoBehaviour:
   icon: {fileID: 2800000, guid: 14960cabc51de024f9ab59687ea1c5d3, type: 3}
   iconName: RadioactiveBlue
   prefabID: 16
-  unitName: Sheriff Militia
+  unitName: Militia
   desp: Description for unit....
   factionID: 1
   faction:
@@ -36987,7 +36987,7 @@ MonoBehaviour:
   icon: {fileID: 2800000, guid: 8a705af3ec94cec46bcb2e211a471bf6, type: 3}
   iconName: Radioactive_BW
   prefabID: 15
-  unitName: Sheriff Calvalry
+  unitName: Calvalry
   desp: Description for unit....
   factionID: 1
   faction:
@@ -46963,7 +46963,7 @@ MonoBehaviour:
   icon: {fileID: 2800000, guid: 0b1642ee73b61f144b255ef6d8cd2358, type: 3}
   iconName: Shield
   prefabID: 17
-  unitName: S_Officer
+  unitName: Officer
   desp: Description for unit....
   factionID: 1
   faction:
@@ -49449,7 +49449,7 @@ MonoBehaviour:
   icon: {fileID: 2800000, guid: f5d63c73f602e9247bec474767e63f93, type: 3}
   iconName: Radioactive
   prefabID: 14
-  unitName: Sheriff Archer
+  unitName: Archer
   desp: Description for unit....
   factionID: 1
   faction:
