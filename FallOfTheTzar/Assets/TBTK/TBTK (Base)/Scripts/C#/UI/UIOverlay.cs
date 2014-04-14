@@ -298,7 +298,7 @@ public class UIOverlay : MonoBehaviour {
 
 			int b_2_offset = 200;
 
-			GUI.Box(new Rect(startPosX-x_offset-55,startPosY+y_offset+b_2_offset,200,140),"");
+			GUI.Box(new Rect(startPosX-x_offset-55,startPosY+y_offset+b_2_offset,200,110),"");
 
 			string stragnst;	//strong against
 			switch(UnitControl.selectedUnit.unitName){
@@ -317,8 +317,8 @@ public class UIOverlay : MonoBehaviour {
 				break;
 			}
 
-			GUI.Label(new Rect(startPosX-x_offset-25,startPosY+y_offset+b_2_offset+20,140,140),UnitControl.selectedUnit.unitName,styleA);
-			GUI.Label(new Rect(startPosX-x_offset-25,startPosY+y_offset+b_2_offset+20,140,140),"\nStrong against:\n"+stragnst,styleA);
+			GUI.Label(new Rect(startPosX-x_offset-25,startPosY+y_offset+b_2_offset+20,140,100),UnitControl.selectedUnit.unitName,styleA);
+			GUI.Label(new Rect(startPosX-x_offset-25,startPosY+y_offset+b_2_offset+20,140,100),"\nStrong against:\n"+stragnst,styleA);
 
 
 

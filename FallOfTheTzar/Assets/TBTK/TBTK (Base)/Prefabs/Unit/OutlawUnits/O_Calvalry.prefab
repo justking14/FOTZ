@@ -347,7 +347,7 @@ MonoBehaviour:
   icon: {fileID: 2800000, guid: ea3703ffca6b8b946bc22790e4cbcbc0, type: 3}
   iconName: Icon_Creep_RocketLauncher
   prefabID: 12
-  unitName: Outlaw Calvalry
+  unitName: Outlaw Cavalry
   desp: 'Outlaw Calvalry:
 
 
