@@ -1,8 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\TBTK\TBTK (Base)\Scripts\C#\UI\UIOverlay.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\TBTK\TBTK (Base)\Scripts\C#\UI\UIGameOver.cs">
     <Files>
-      <File FileName="Assets\TBTK\TBTK (Base)\Scripts\C#\UI\UIOverlay.cs" Line="301" Column="80" />
+      <File FileName="Assets\TBTK\TBTK (Base)\Scripts\C#\UI\UIOverlay.cs" Line="357" Column="34" />
+      <File FileName="Assets\TBTK\TBTK (Base)\Scripts\C#\GameControlTB.cs" Line="115" Column="28" />
+      <File FileName="Assets\TBTK\TBTK (Base)\Scripts\C#\Editor\GameControlEditor.cs" Line="16" Column="17" />
+      <File FileName="Assets\TBTK\TBTK (Base)\Scripts\C#\UnitControl.cs" Line="965" Column="69" />
+      <File FileName="Assets\TBTK\TBTK (Base)\Scripts\C#\UI\UIGameOver.cs" Line="70" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

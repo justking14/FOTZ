@@ -30,7 +30,7 @@ public class UIGameOver : MonoBehaviour {
 		vicFactionID=vicID;
 		
 		if(GameControlTB.playerFactionExisted){
-			if(GameControlTB.IsHotSeatMode()){
+			if(/*GameControlTB.IsHotSeatMode()*/ true){
 				if(GameControlTB.IsPlayerFaction(vicFactionID)){
 					outcomeTxt="Victory!!";
 				}
@@ -106,9 +106,17 @@ public class UIGameOver : MonoBehaviour {
 		}
 		
 		startY+=120;
-		if(GUI.Button(new Rect(startX, startY+=spaceY, width, height*3), "Next Mission", UI.buttonStyleAlt)){
-			
-			Application.LoadLevel(Application.loadedLevel + 1);
+		if(GameControlTB.IsPlayerFaction(vicFactionID)){
+			if(GUI.Button(new Rect(startX, startY+=spaceY, width, height*3), "Next Mission", UI.buttonStyleAlt)){
+				
+				Application.LoadLevel(Application.loadedLevel + 1);
+			}
+		}
+		else{
+			if(GUI.Button(new Rect(startX, startY+=spaceY, width, height*3), "Retry", UI.buttonStyleAlt)){
+				
+				Application.LoadLevel(Application.loadedLevel);
+			}
 		}
 		if(GUI.Button(new Rect(startX, startY+=spaceY*4, width, height*3), "Main Menu", UI.buttonStyleAlt)){
 			Application.LoadLevel(0);
