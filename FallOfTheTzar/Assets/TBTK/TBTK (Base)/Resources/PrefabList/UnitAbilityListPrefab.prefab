@@ -1053,16 +1053,13 @@ MonoBehaviour:
     shootObject: {fileID: 0}
   - ID: 19
     name: Create Outpost
-    desp: 'Make a defensive outpost, extends to all hexes
+    desp: 'Make a defensive outpost for 3 rounds, extends
 
-      adjacent to the currently occupied one.
+      to all hexes adjacent to the currently occupied one.
 
       Any unit in the affected tiles will gain 20 defense
 
-      and regenerate some health.
-
-
-      Last 3 rounds.'
+      and regenerate some health.'
     icon: {fileID: 2800000, guid: 0b1642ee73b61f144b255ef6d8cd2358, type: 3}
     iconName: Shield
     effectType: 2
@@ -1522,62 +1519,11 @@ MonoBehaviour:
     soundHit: {fileID: 0}
     shootMode: 0
     shootObject: {fileID: 0}
-  - ID: 27
-    name: Knockout
-    desp: 'Knockout an enemy preventing it form doing anything for two turns.
-
-      You cannot attck after using this ability'
-    icon: {fileID: 2800000, guid: 62b151a4dc286dc4c8a1b62ccbaf944c, type: 3}
-    iconName: Skull
-    effectType: 3
-    effectAttrs:
-    - type: 14
-      useDefaultDamageValue: 1
-      value: 1
-      valueAlt: 0
-      duration: 2
-      damageType: 0
-      cd: 0
-      unit: {fileID: 0}
-      collectible: {fileID: 0}
-    countTillNextTurn: 1
-    iconUnavailable: {fileID: 0}
-    iconUnavailableName: 
-    targetType: 2
-    requireTargetSelection: 1
-    enableMovementAfter: 0
-    enableAttackAfter: 0
-    factionID: 0
-    canMiss: 0
-    missChance: .150000006
-    stackMissWithDodge: 1
-    canFail: 0
-    failChance: .150000006
-    chainedAbilityIDList: 
-    targetArea: 0
-    enableAOE: 0
-    aoeRange: 1
-    range: 1
-    cost: 4
-    totalCost: 4
-    cdDuration: 8
-    cooldown: 0
-    useLimit: -1
-    useCount: 0
-    delay: 0
-    effectUse: {fileID: 0}
-    effectTarget: {fileID: 0}
-    effectUseDelay: 0
-    effectTargetDelay: 0
-    soundUse: {fileID: 0}
-    soundHit: {fileID: 0}
-    shootMode: 1
-    shootObject: {fileID: 100000, guid: 6a8206f1f7ed23c4a96cc6c8db97aeeb, type: 2}
   - ID: 28
     name: Hunker Down
     desp: 'Makes it much harder for you to be hit for a turn.
 
-      YOu cannot move or attack after using this ability'
+      You cannot move or attack after using this ability'
     icon: {fileID: 2800000, guid: 43e8e281154d7ba4fba0a56a2472580e, type: 3}
     iconName: Shield_Full
     effectType: 2

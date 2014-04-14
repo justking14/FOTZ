@@ -545,7 +545,7 @@ MonoBehaviour:
   damageTypeMelee: 0
   damageTypeRange: 5
   attackRangeMelee: 1
-  attackRangeMin: 7
+  attackRangeMin: 2
   attackRangeMax: 10
   rangeDamageMin: 3
   rangeDamageMax: 4

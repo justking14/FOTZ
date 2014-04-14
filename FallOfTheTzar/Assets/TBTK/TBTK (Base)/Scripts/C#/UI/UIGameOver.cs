@@ -11,7 +11,7 @@ public class UIGameOver : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		outcomeTxt="Faction 1 Won!!";
+		outcomeTxt="Breshnev is victorious.";
 		//~ statsTxt="15\n5\n5";
 		//~ pointTxt="20";
 	}
@@ -101,19 +101,17 @@ public class UIGameOver : MonoBehaviour {
 			style.alignment=TextAnchor.UpperRight;
 			GUI.Label(new Rect(startX, startY+35, width, 100), statsTxt, style);
 			GUI.Label(new Rect(startX, startY+85, width, 100), pointTxt, style);
-			
-			GUI.Label(new Rect(startX, startY+69, width, 100), "_____________________________________________", style);
+
+			//GUI.Label(new Rect(startX, startY+69, width, 100), "_____________________________________________", style);
 		}
 		
 		startY+=120;
-		if(GUI.Button(new Rect(startX, startY+=spaceY, width, height), "Next", UI.buttonStyleAlt)){
+		if(GUI.Button(new Rect(startX, startY+=spaceY, width, height*3), "Next Mission", UI.buttonStyleAlt)){
 			
+			Application.LoadLevel(Application.loadedLevel + 1);
 		}
-		if(GUI.Button(new Rect(startX, startY+=spaceY, width, height), "Restart", UI.buttonStyleAlt)){
-			
-		}
-		if(GUI.Button(new Rect(startX, startY+=spaceY, width, height), "Main Menu", UI.buttonStyleAlt)){
-			
+		if(GUI.Button(new Rect(startX, startY+=spaceY*4, width, height*3), "Main Menu", UI.buttonStyleAlt)){
+			Application.LoadLevel(0);
 		}
 		
 		startY+=spaceY+10;
