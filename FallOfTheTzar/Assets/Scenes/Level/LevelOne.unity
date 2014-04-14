@@ -34922,8 +34922,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1542474778}
+  - 114: {fileID: 1542474779}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34941,6 +34942,29 @@ Transform:
   m_Children:
   - {fileID: 1297857557}
   m_Father: {fileID: 0}
+--- !u!114 &1542474779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1542474777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 567319595, guid: b5a7519e94754fb4a8ea0c272031db78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  once: 0
+  conversation: Level 1 Intro
+  condition:
+    luaConditions: []
+    questConditions: []
+    acceptedTags: []
+    acceptedGameObjects: []
+  skipIfNoValidEntries: 0
+  conversant: {fileID: 0}
+  actor: {fileID: 0}
+  trigger: 16
+  stopConversationOnTriggerExit: 0
 --- !u!1 &1542506901
 GameObject:
   m_ObjectHideFlags: 0
