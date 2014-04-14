@@ -525,7 +525,7 @@ MonoBehaviour:
   pointReward: 7
   fullHP: 13
   HP: 10
-  fullAP: 5
+  fullAP: 6
   AP: 0
   HPGainMin: 1
   HPGainMax: 1
