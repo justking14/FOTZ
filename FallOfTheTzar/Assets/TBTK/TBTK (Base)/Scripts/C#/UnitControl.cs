@@ -1123,6 +1123,10 @@ public class UnitControl : MonoBehaviour {
 	}
 	
 	void OnUnitDestroyed(UnitTB unit){
+		if(unit.factionID == 0){
+			Debug.Log ("player unit kill command sent");
+			GameObject.Find("UI").BroadcastMessage("KillPlayerUnit");
+		}
 		if(unit==selectedUnit){
 			//OnUnitDeselected();
 			GridManager.Deselect();

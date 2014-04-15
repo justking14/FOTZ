@@ -42,7 +42,7 @@ public class UIOverlay : MonoBehaviour {
 	public float idleUnits = 0;	//number of idle units for the person currently playing
 	public List<UnitTB> p_units;	//list of player units
 	private float totalUnits;
-	private int deadUnits;
+	private int deadUnits = 0;
 	private int p_factionId;	//player faction id
 	public float waitTime = 3.0f;		//TODO: change to private once a reasonable time is found
 	public float lastCheck;
@@ -52,7 +52,7 @@ public class UIOverlay : MonoBehaviour {
 	void Awake(){
 		//tex=Resources.Load("Textures/Bar", typeof(Texture)) as Texture;
 		
-		deadUnits = 0;
+
 		 styleA=new GUIStyle();
 		styleA.fontStyle=FontStyle.Bold;
 	}
@@ -144,6 +144,12 @@ public class UIOverlay : MonoBehaviour {
 			style.normal.textColor=effect.color;
 			GUI.Label(new Rect(screenPos.x-50, screenPos.y, 100, 40), effect.msg, style);
 		}
+	}
+
+	void KillPlayerUnit(){
+		
+		Debug.Log ("player unit killed command recieved");
+		deadUnits++;
 	}
 	
 	// Update is called once per frame
@@ -366,6 +372,9 @@ public class UIOverlay : MonoBehaviour {
 			//print unit information
 			//GUI.Label(new Rect(Screen.width/2-250, 0, 500, 20), name+" HP:"+selectedUnit.HP+" AP:"+selectedUnit.AP+" Remaining Moves:"+selectedUnit.moveRemain +" Remaining Attacks: " +selectedUnit.attackRemain);
 			if(lastCheck >= waitTime){
+				
+				Debug.Log ("Idle Units: "+idleUnits+" Dead Units:"+deadUnits + " Total Units:" + totalUnits);
+
 				lastCheck = 0;
 				idleUnits = totalUnits;
 				//get idle units
@@ -397,7 +406,7 @@ public class UIOverlay : MonoBehaviour {
 				lastCheck+=Time.deltaTime;
 			}
 			//print idle information
-			if(idleUnits ==0){
+			if(idleUnits-deadUnits ==0){
 				//TODO: change coords to put it right above next turn button
 				//GUI.Label(new Rect(Screen.width/2-w/2, 25, w, h), "All units have exhausted their moves, hit the next turn.", style);
 				//only toggle glow once per turn
@@ -405,11 +414,14 @@ public class UIOverlay : MonoBehaviour {
 					BroadcastMessage("toggleGlow");
 					messageSent = true;
 				}
+				GUI.Label(new Rect(Screen.width-100, Screen.height-65-20, 60, 60), "No idle units", style);
+
 				//GUI.Label (new Rect(Screen.width/2-250, 15, 500, 20), "All units have exhausted their moves, hit the next turn.");
 			}
 			else{
+				messageSent = false;
 				BroadcastMessage("turnoffGlow");
-				GUI.Label(new Rect(Screen.width-100, Screen.height-65-20, 60, 60), idleUnits + "/"+ (totalUnits-deadUnits) + " idle units", style);
+				GUI.Label(new Rect(Screen.width-100, Screen.height-65-20, 60, 60), idleUnits-deadUnits + "/"+ (totalUnits-deadUnits) + " idle units", style);
 				
 				//GUI.Label (new Rect(Screen.width/2-250, 15, 500, 20),idleUnits + "/"+ totalUnits + " units still have available actions.");
 			}
