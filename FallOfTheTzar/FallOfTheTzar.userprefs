@@ -6,7 +6,7 @@
       <File FileName="Assets\TBTK\TBTK (Base)\Scripts\C#\GameControlTB.cs" Line="115" Column="28" />
       <File FileName="Assets\TBTK\TBTK (Base)\Scripts\C#\Editor\GameControlEditor.cs" Line="16" Column="17" />
       <File FileName="Assets\TBTK\TBTK (Base)\Scripts\C#\UnitControl.cs" Line="965" Column="69" />
-      <File FileName="Assets\TBTK\TBTK (Base)\Scripts\C#\UI\UIGameOver.cs" Line="70" Column="10" />
+      <File FileName="Assets\TBTK\TBTK (Base)\Scripts\C#\UI\UIGameOver.cs" Line="33" Column="45" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
