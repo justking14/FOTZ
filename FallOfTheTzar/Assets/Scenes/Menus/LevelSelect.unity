@@ -228,14 +228,23 @@ MonoBehaviour:
   customSkin: {fileID: 11400000, guid: 67a334a737561f14aa8bc6beacd65b18, type: 2}
   tooltip:
   - Play Level One
+  - Play Level Two
+  - Play Level Three
+  - Play Level Four
   - Return to the main menu
   names:
   - Level One
+  - Level Two
+  - Level Three
+  - Level Four
   - Main Menu
   levelLoad:
   - LevelOne
+  - LevelTwo_2
+  - LevelThree_2
+  - LevelFour_2
   - MainScreen
-  menuItems: 2
+  menuItems: 5
   useNGUIScene: 0
 --- !u!1 &2139999692
 GameObject:
