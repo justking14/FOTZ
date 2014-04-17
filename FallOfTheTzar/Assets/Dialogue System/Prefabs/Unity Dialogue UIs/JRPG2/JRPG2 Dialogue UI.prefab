@@ -514,6 +514,7 @@ MonoBehaviour:
     previous: 273
     next: 274
     axis: Vertical
+    invertAxis: 1
     axisRepeatDelay: 1
     mouseWheelSensitivity: 5
   visible: 1
@@ -596,6 +597,7 @@ MonoBehaviour:
     previous: 273
     next: 274
     axis: Vertical
+    invertAxis: 1
     axisRepeatDelay: 1
     mouseWheelSensitivity: 5
   visible: 1
@@ -741,6 +743,7 @@ MonoBehaviour:
     previous: 273
     next: 274
     axis: Vertical
+    invertAxis: 1
     axisRepeatDelay: 1
     mouseWheelSensitivity: 5
   visible: 1
@@ -886,6 +889,7 @@ MonoBehaviour:
     previous: 273
     next: 274
     axis: Vertical
+    invertAxis: 1
     axisRepeatDelay: 1
     mouseWheelSensitivity: 5
   visible: 1
@@ -1031,6 +1035,7 @@ MonoBehaviour:
     previous: 273
     next: 274
     axis: Vertical
+    invertAxis: 1
     axisRepeatDelay: 1
     mouseWheelSensitivity: 5
   visible: 1
@@ -1176,6 +1181,7 @@ MonoBehaviour:
     previous: 273
     next: 274
     axis: Vertical
+    invertAxis: 1
     axisRepeatDelay: 1
     mouseWheelSensitivity: 5
   visible: 1
@@ -1244,6 +1250,7 @@ MonoBehaviour:
     previous: 273
     next: 274
     axis: Vertical
+    invertAxis: 1
     axisRepeatDelay: 1
     mouseWheelSensitivity: 5
   visible: 1
@@ -1312,6 +1319,7 @@ MonoBehaviour:
     previous: 273
     next: 274
     axis: Vertical
+    invertAxis: 1
     axisRepeatDelay: 1
     mouseWheelSensitivity: 5
   visible: 1
@@ -1414,6 +1422,7 @@ MonoBehaviour:
     previous: 273
     next: 274
     axis: Vertical
+    invertAxis: 1
     axisRepeatDelay: 1
     mouseWheelSensitivity: 5
   visible: 1
@@ -1495,6 +1504,7 @@ MonoBehaviour:
     previous: 273
     next: 274
     axis: Vertical
+    invertAxis: 1
     axisRepeatDelay: 1
     mouseWheelSensitivity: 5
   visible: 1
@@ -1512,7 +1522,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 1413299683, guid: b5a7519e94754fb4a8ea0c272031db78, type: 3}
   m_Name: 
@@ -1578,6 +1588,7 @@ MonoBehaviour:
     previous: 273
     next: 274
     axis: Vertical
+    invertAxis: 1
     axisRepeatDelay: 1
     mouseWheelSensitivity: 5
   visible: 1
@@ -1646,6 +1657,7 @@ MonoBehaviour:
     previous: 273
     next: 274
     axis: Vertical
+    invertAxis: 1
     axisRepeatDelay: 1
     mouseWheelSensitivity: 5
   visible: 1
@@ -1714,6 +1726,7 @@ MonoBehaviour:
     previous: 273
     next: 274
     axis: Vertical
+    invertAxis: 1
     axisRepeatDelay: 1
     mouseWheelSensitivity: 5
   visible: 1
@@ -1769,6 +1782,7 @@ MonoBehaviour:
   alert:
     panel: {fileID: 11400014}
     line: {fileID: 11400040}
+    continueButton: {fileID: 0}
 --- !u!114 &11400038
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1842,6 +1856,7 @@ MonoBehaviour:
     previous: 273
     next: 274
     axis: Vertical
+    invertAxis: 1
     axisRepeatDelay: 1
     mouseWheelSensitivity: 5
   visible: 1
@@ -1910,6 +1925,7 @@ MonoBehaviour:
     previous: 273
     next: 274
     axis: Vertical
+    invertAxis: 1
     axisRepeatDelay: 1
     mouseWheelSensitivity: 5
   visible: 1
