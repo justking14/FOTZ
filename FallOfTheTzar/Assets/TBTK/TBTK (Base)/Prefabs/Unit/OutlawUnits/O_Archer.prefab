@@ -525,7 +525,7 @@ MonoBehaviour:
   pointReward: 7
   fullHP: 13
   HP: 10
-  fullAP: 5
+  fullAP: 6
   AP: 0
   HPGainMin: 1
   HPGainMax: 1
@@ -545,7 +545,7 @@ MonoBehaviour:
   damageTypeMelee: 0
   damageTypeRange: 5
   attackRangeMelee: 1
-  attackRangeMin: 7
+  attackRangeMin: 2
   attackRangeMax: 10
   rangeDamageMin: 3
   rangeDamageMax: 4
@@ -571,7 +571,7 @@ MonoBehaviour:
   movementDisabled: 0
   abilityDisabled: 0
   defaultFactionID: -1
-  abilityIDList: 150000001800000017000000160000001c0000001f000000
+  abilityIDList: 17000000160000001c000000
   unitAbilityList: []
   attackerList: []
   triggered: 0
