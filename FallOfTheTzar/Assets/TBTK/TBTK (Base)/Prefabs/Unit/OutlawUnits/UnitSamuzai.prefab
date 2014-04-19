@@ -2516,7 +2516,7 @@ MonoBehaviour:
     spawnInfo: []
   pointCost: 5
   pointReward: 0
-  fullHP: 20
+  fullHP: 14
   HP: 10
   fullAP: 15
   AP: 0
@@ -2564,7 +2564,7 @@ MonoBehaviour:
   movementDisabled: 0
   abilityDisabled: 0
   defaultFactionID: -1
-  abilityIDList: 1200000014000000100000001b0000001d00000016000000
+  abilityIDList: 1200000014000000100000001d00000016000000
   unitAbilityList: []
   attackerList: []
   triggered: 0

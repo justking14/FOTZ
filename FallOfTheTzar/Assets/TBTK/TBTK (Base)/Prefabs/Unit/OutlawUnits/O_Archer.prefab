@@ -523,7 +523,7 @@ MonoBehaviour:
     spawnInfo: []
   pointCost: 7
   pointReward: 7
-  fullHP: 13
+  fullHP: 7
   HP: 10
   fullAP: 6
   AP: 0
