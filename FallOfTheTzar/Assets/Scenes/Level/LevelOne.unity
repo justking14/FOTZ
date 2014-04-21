@@ -36632,7 +36632,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: e4664e9bc0054a4408d7e4fa13a160f4, type: 2}
+  - {fileID: 2100000, guid: 56d00b2430be77849aee1e851c4b592a, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -37006,7 +37006,7 @@ GameObject:
   - 4: {fileID: 1542474778}
   - 114: {fileID: 1542474779}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Peasant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47192,7 +47192,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: e4664e9bc0054a4408d7e4fa13a160f4, type: 2}
+  - {fileID: 2100000, guid: 56d00b2430be77849aee1e851c4b592a, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -51443,7 +51443,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: e4664e9bc0054a4408d7e4fa13a160f4, type: 2}
+  - {fileID: 2100000, guid: 56d00b2430be77849aee1e851c4b592a, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
