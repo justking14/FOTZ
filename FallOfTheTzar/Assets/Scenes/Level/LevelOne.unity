@@ -14230,9 +14230,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minFallOffRange: 10
-  musicList: []
+  musicList:
+  - {fileID: 8300000, guid: 0dccd2f926fe94ca9bf6ebb93ecfa99a, type: 3}
+  - {fileID: 8300000, guid: 547742badd22e4813a1f3e1e650a1b39, type: 3}
+  - {fileID: 8300000, guid: 7c601e21b7bc1404fa0ffa29deae1140, type: 3}
+  - {fileID: 8300000, guid: da253306d11d445e494bbbb879fdac12, type: 3}
   playMusic: 1
-  shuffle: 0
+  shuffle: 1
   initialMusicVolume: .5
   initialSFXVolume: .75
   gameWonSound: {fileID: 0}

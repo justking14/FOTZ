@@ -4597,10 +4597,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 843906361}
   - {fileID: 1744930902}
   - {fileID: 1734335078}
   - {fileID: 567427342}
-  - {fileID: 844058970}
   - {fileID: 441047955}
   - {fileID: 1092578219}
   m_Father: {fileID: 0}
@@ -45673,7 +45673,7 @@ MonoBehaviour:
   APGainMin: 1
   APGainMax: 2
   turnPriority: 3
-  movementRange: 2
+  movementRange: 3
   sight: 20
   movePerTurn: 1
   moveRemain: 1
@@ -45698,9 +45698,9 @@ MonoBehaviour:
   criticalRange: .100000001
   criticalMelee: .100000001
   armorType: 5
-  defend: .100000001
+  defend: .200000003
   critDef: 0
-  damageReduc: 0
+  damageReduc: 1
   APCostAttack: 1
   APCostMove: 1
   waitingTime: 0
@@ -47726,7 +47726,7 @@ MonoBehaviour:
   APGainMin: 1
   APGainMax: 2
   turnPriority: 3
-  movementRange: 2
+  movementRange: 3
   sight: 20
   movePerTurn: 1
   moveRemain: 1
@@ -47751,9 +47751,9 @@ MonoBehaviour:
   criticalRange: .100000001
   criticalMelee: .100000001
   armorType: 5
-  defend: .100000001
+  defend: .200000003
   critDef: 0
-  damageReduc: 0
+  damageReduc: 1
   APCostAttack: 1
   APCostMove: 1
   waitingTime: 0
@@ -51301,15 +51301,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 142949041}
   m_GameObject: {fileID: 842961009}
   m_Mesh: {fileID: 4300000, guid: 77b6b5f5b766333429a2cad5546dbafa, type: 3}
---- !u!1 &844058969
+--- !u!1 &843906360
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 844058970}
-  - 114: {fileID: 844058971}
+  - 4: {fileID: 843906361}
+  - 114: {fileID: 843906362}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -51317,32 +51317,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &844058970
+--- !u!4 &843906361
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 844058969}
+  m_GameObject: {fileID: 843906360}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 76090304}
---- !u!114 &844058971
+--- !u!114 &843906362
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 844058969}
+  m_GameObject: {fileID: 843906360}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2e0977c0ca5f2144f8b4ebfbcc101d53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   minFallOffRange: 10
-  musicList: []
+  musicList:
+  - {fileID: 8300000, guid: 0dccd2f926fe94ca9bf6ebb93ecfa99a, type: 3}
+  - {fileID: 8300000, guid: 547742badd22e4813a1f3e1e650a1b39, type: 3}
+  - {fileID: 8300000, guid: 7c601e21b7bc1404fa0ffa29deae1140, type: 3}
+  - {fileID: 8300000, guid: da253306d11d445e494bbbb879fdac12, type: 3}
   playMusic: 1
-  shuffle: 0
+  shuffle: 1
   initialMusicVolume: .5
   initialSFXVolume: .75
   gameWonSound: {fileID: 0}
@@ -66229,7 +66233,7 @@ MonoBehaviour:
   APGainMin: 1
   APGainMax: 2
   turnPriority: 3
-  movementRange: 2
+  movementRange: 3
   sight: 20
   movePerTurn: 1
   moveRemain: 1
@@ -66254,9 +66258,9 @@ MonoBehaviour:
   criticalRange: .100000001
   criticalMelee: .100000001
   armorType: 5
-  defend: .100000001
+  defend: .200000003
   critDef: 0
-  damageReduc: 0
+  damageReduc: 1
   APCostAttack: 1
   APCostMove: 1
   waitingTime: 0
@@ -122615,7 +122619,7 @@ MonoBehaviour:
   APGainMin: 1
   APGainMax: 2
   turnPriority: 3
-  movementRange: 2
+  movementRange: 3
   sight: 20
   movePerTurn: 1
   moveRemain: 1
@@ -122640,9 +122644,9 @@ MonoBehaviour:
   criticalRange: .100000001
   criticalMelee: .100000001
   armorType: 5
-  defend: .100000001
+  defend: .200000003
   critDef: 0
-  damageReduc: 0
+  damageReduc: 1
   APCostAttack: 1
   APCostMove: 1
   waitingTime: 0
