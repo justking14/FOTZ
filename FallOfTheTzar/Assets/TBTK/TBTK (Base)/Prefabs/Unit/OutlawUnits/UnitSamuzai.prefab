@@ -2516,7 +2516,7 @@ MonoBehaviour:
     spawnInfo: []
   pointCost: 5
   pointReward: 0
-  fullHP: 20
+  fullHP: 8
   HP: 10
   fullAP: 15
   AP: 0
@@ -2536,21 +2536,21 @@ MonoBehaviour:
   attackMode: 2
   damageType: 0
   damageTypeMelee: 7
-  damageTypeRange: 5
+  damageTypeRange: 7
   attackRangeMelee: 1
   attackRangeMin: 0
   attackRangeMax: 4
   rangeDamageMin: 1
-  rangeDamageMax: 5
+  rangeDamageMax: 4
   meleeDamageMin: 3
-  meleeDamageMax: 7
+  meleeDamageMax: 5
   counterDmgModifier: 1
   attRange: .800000012
   attMelee: .899999976
   criticalRange: .400000006
   criticalMelee: .400000006
   armorType: 6
-  defend: .300000012
+  defend: .200000003
   critDef: 0
   damageReduc: 0
   APCostAttack: 1
@@ -2564,7 +2564,7 @@ MonoBehaviour:
   movementDisabled: 0
   abilityDisabled: 0
   defaultFactionID: -1
-  abilityIDList: 1200000014000000100000001b0000001d00000016000000
+  abilityIDList: 1200000014000000100000001d00000016000000
   unitAbilityList: []
   attackerList: []
   triggered: 0

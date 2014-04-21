@@ -397,7 +397,7 @@ MonoBehaviour:
     spawnInfo: []
   pointCost: 6
   pointReward: 6
-  fullHP: 8
+  fullHP: 12
   HP: 10
   fullAP: 6
   AP: 0
@@ -433,7 +433,7 @@ MonoBehaviour:
   armorType: 5
   defend: .100000001
   critDef: 0
-  damageReduc: 0
+  damageReduc: 1
   APCostAttack: 1
   APCostMove: 0
   waitingTime: 0

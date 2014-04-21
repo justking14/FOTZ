@@ -486,7 +486,7 @@ MonoBehaviour:
   APGainMin: 1
   APGainMax: 2
   turnPriority: 3
-  movementRange: 2
+  movementRange: 3
   sight: 20
   movePerTurn: 1
   moveRemain: 1
@@ -511,9 +511,9 @@ MonoBehaviour:
   criticalRange: .100000001
   criticalMelee: .100000001
   armorType: 5
-  defend: .100000001
+  defend: .200000003
   critDef: 0
-  damageReduc: 0
+  damageReduc: 1
   APCostAttack: 1
   APCostMove: 1
   waitingTime: 0

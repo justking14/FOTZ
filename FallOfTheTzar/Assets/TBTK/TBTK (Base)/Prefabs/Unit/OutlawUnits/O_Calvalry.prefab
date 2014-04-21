@@ -376,7 +376,7 @@ MonoBehaviour:
   APGainMin: 1
   APGainMax: 1
   turnPriority: 4
-  movementRange: 10
+  movementRange: 7
   sight: 7
   movePerTurn: 1
   moveRemain: 1

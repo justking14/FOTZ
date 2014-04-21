@@ -523,7 +523,7 @@ MonoBehaviour:
     spawnInfo: []
   pointCost: 7
   pointReward: 7
-  fullHP: 13
+  fullHP: 7
   HP: 10
   fullAP: 6
   AP: 0
@@ -546,7 +546,7 @@ MonoBehaviour:
   damageTypeRange: 5
   attackRangeMelee: 1
   attackRangeMin: 2
-  attackRangeMax: 10
+  attackRangeMax: 5
   rangeDamageMin: 3
   rangeDamageMax: 4
   meleeDamageMin: 2
