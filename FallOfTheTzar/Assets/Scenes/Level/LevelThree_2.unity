@@ -20402,7 +20402,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 358200560}
   m_LocalRotation: {x: -4.72404338e-09, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.18197894, z: -13.7885828}
+  m_LocalPosition: {x: -16.5640068, y: 3.18197894, z: -13.7885828}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 845007884}
@@ -98428,10 +98428,10 @@ MonoBehaviour:
   enableMouseWheelZoom: 1
   enableMousePanning: 0
   mousePanningZoneWidth: 10
-  minPosX: -10
-  maxPosX: 10
-  minPosZ: -10
-  maxPosZ: 10
+  minPosX: 0
+  maxPosX: 40
+  minPosZ: -20
+  maxPosZ: 20
   minRadius: 8
   maxRadius: 40
   actionCamDummyT: {fileID: 503165933}
