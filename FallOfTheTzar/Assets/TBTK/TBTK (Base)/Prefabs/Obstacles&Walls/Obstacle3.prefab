@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89b43b115115de44a8157b4f732f96dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obsName: obstacle3
+  obsName: WallHexHalf
   prefabID: 4
   coverType: 2
   obsType: 0
