@@ -455,7 +455,13 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: reputation = 0
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 2
       fields:
       - title: Title
@@ -517,6 +523,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 3
       fields:
       - title: Title
@@ -578,6 +590,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 4
       fields:
       - title: Title
@@ -620,6 +638,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 5
       fields:
       - title: Title
@@ -679,7 +703,13 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: reputation = reputation + 1
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 6
       fields:
       - title: Title
@@ -741,6 +771,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 7
       fields:
       - title: Title
@@ -801,7 +837,13 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: reputation = reputation - 1
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 8
       fields:
       - title: Title
@@ -863,6 +905,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 9
       fields:
       - title: Title
@@ -927,6 +975,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 10
       fields:
       - title: Title
@@ -981,6 +1035,12 @@ MonoBehaviour:
       outgoingLinks: []
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
   - id: 2
     fields:
     - title: Title
@@ -1078,6 +1138,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 1
       fields:
       - title: Title
@@ -1139,6 +1205,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 2
       fields:
       - title: Title
@@ -1181,6 +1253,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 3
       fields:
       - title: Title
@@ -1240,7 +1318,13 @@ MonoBehaviour:
         isConnector: 1
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: reputation = reputation + 1
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 4
       fields:
       - title: Title
@@ -1300,7 +1384,13 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: reputation = reputation - 1
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 5
       fields:
       - title: Title
@@ -1363,6 +1453,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 6
       fields:
       - title: Title
@@ -1423,6 +1519,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 7
       fields:
       - title: Title
@@ -1465,6 +1567,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 8
       fields:
       - title: Title
@@ -1524,7 +1632,13 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: reputation = reputation - 1
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 9
       fields:
       - title: Title
@@ -1585,7 +1699,13 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: reputation = reputation + 1
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 10
       fields:
       - title: Title
@@ -1647,6 +1767,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 11
       fields:
       - title: Title
@@ -1707,6 +1833,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 12
       fields:
       - title: Title
@@ -1758,9 +1890,21 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 12
+        destinationConversationID: 2
+        destinationDialogueID: 14
+        isConnector: 1
+        priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 13
       fields:
       - title: Title
@@ -1813,9 +1957,458 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 13
+        destinationConversationID: 2
+        destinationDialogueID: 14
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 14
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 4
+        type: 5
+      - title: Conversant
+        value: 4
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: After their first victory, the newly formed rebellion spent little
+          time celebrating.  They enjoyed only one night in the city before Brezhnev
+          had them formed up and ready to move.   For the next week he trained them,
+          from peasants to soldiers, and then he set his sights on the Tzar and the
+          capital.  But what he found in the fields, was an ambush.
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Lipsync Files
+        value: '[]'
+        type: 3
+      - title: Animation Files
+        value: '[]'
+        type: 3
+      - title: Mood
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 14
+        destinationConversationID: 2
+        destinationDialogueID: 15
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 15
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 2
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: Sir, the scouts have spotted guards in the fishing villages up ahead.
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Lipsync Files
+        value: '[]'
+        type: 3
+      - title: Animation Files
+        value: '[]'
+        type: 3
+      - title: Mood
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 15
+        destinationConversationID: 2
+        destinationDialogueID: 16
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 16
+      fields:
+      - title: Title
+        value: Trying again
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 2
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: So they attempt an ambush.  Who do they think they're dealing with?
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Lipsync Files
+        value: '[]'
+        type: 3
+      - title: Animation Files
+        value: '[]'
+        type: 3
+      - title: Mood
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 16
+        destinationConversationID: 2
+        destinationDialogueID: 17
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 17
+      fields:
+      - title: Title
+        value: Orders?
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 2
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: Orders, sir?
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Lipsync Files
+        value: '[]'
+        type: 3
+      - title: Animation Files
+        value: '[]'
+        type: 3
+      - title: Mood
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 17
+        destinationConversationID: 2
+        destinationDialogueID: 18
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 18
+      fields:
+      - title: Title
+        value: Option 3
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 2
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Sequence
+        value: None()
+        type: 0
+      conversationID: 2
+      isRoot: 0
+      isGroup: 1
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 18
+        destinationConversationID: 2
+        destinationDialogueID: 19
+        isConnector: 0
+        priority: 2
+      - originConversationID: 2
+        originDialogueID: 18
+        destinationConversationID: 2
+        destinationDialogueID: 20
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 19
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 2
+        type: 5
+      - title: Menu Text
+        value: Kill the soldiers.
+        type: 0
+      - title: Dialogue Text
+        value: 'They thought they could stop us, lets see them try.  Burn the villages
+          if we have to.  Let none escape.  '
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Lipsync Files
+        value: '[]'
+        type: 3
+      - title: Animation Files
+        value: '[]'
+        type: 3
+      - title: Mood
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: reputation = reputation - 1
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 20
+      fields:
+      - title: Title
+        value: Set them running
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 2
+        type: 5
+      - title: Menu Text
+        value: Save the villages.
+        type: 0
+      - title: Dialogue Text
+        value: We'll set them running, and free the villages they've captured.
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Lipsync Files
+        value: '[]'
+        type: 3
+      - title: Animation Files
+        value: '[]'
+        type: 3
+      - title: Mood
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: reputation = reputation + 1
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
   - id: 3
     fields:
     - title: Title
@@ -1908,12 +2501,18 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 0
         destinationConversationID: 3
-        destinationDialogueID: 1
+        destinationDialogueID: 21
         isConnector: 0
         priority: 2
       conditionsString: 
       userScript: 
-    - id: 1
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 21
       fields:
       - title: Title
         value: New Dialogue
@@ -1970,14 +2569,20 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 3
-        originDialogueID: 1
+        originDialogueID: 21
         destinationConversationID: 3
-        destinationDialogueID: 2
+        destinationDialogueID: 22
         isConnector: 0
         priority: 2
       conditionsString: 
       userScript: 
-    - id: 2
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 22
       fields:
       - title: Title
         value: New Dialogue
@@ -2030,14 +2635,20 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 3
-        originDialogueID: 2
+        originDialogueID: 22
         destinationConversationID: 3
-        destinationDialogueID: 3
+        destinationDialogueID: 23
         isConnector: 0
         priority: 2
       conditionsString: 
       userScript: 
-    - id: 3
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 23
       fields:
       - title: Title
         value: Trying again
@@ -2090,14 +2701,20 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 3
-        originDialogueID: 3
+        originDialogueID: 23
         destinationConversationID: 3
-        destinationDialogueID: 4
+        destinationDialogueID: 24
         isConnector: 0
         priority: 2
       conditionsString: 
       userScript: 
-    - id: 4
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 24
       fields:
       - title: Title
         value: Orders?
@@ -2150,17 +2767,23 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 3
-        originDialogueID: 4
+        originDialogueID: 24
         destinationConversationID: 3
-        destinationDialogueID: 5
+        destinationDialogueID: 25
         isConnector: 0
         priority: 2
       conditionsString: 
       userScript: 
-    - id: 5
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 25
       fields:
       - title: Title
-        value: Option 1
+        value: Option 3
         type: 0
       - title: Pictures
         value: '[]'
@@ -2186,20 +2809,26 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 3
-        originDialogueID: 5
+        originDialogueID: 25
         destinationConversationID: 3
-        destinationDialogueID: 6
+        destinationDialogueID: 26
         isConnector: 0
         priority: 2
       - originConversationID: 3
-        originDialogueID: 5
+        originDialogueID: 25
         destinationConversationID: 3
-        destinationDialogueID: 7
+        destinationDialogueID: 27
         isConnector: 0
         priority: 2
       conditionsString: 
       userScript: 
-    - id: 6
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 26
       fields:
       - title: Title
         value: New Dialogue
@@ -2253,8 +2882,14 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
-    - id: 7
+      userScript: reputation = reputation - 1
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 27
       fields:
       - title: Title
         value: Set them running
@@ -2307,7 +2942,13 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: reputation = reputation + 1
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
   - id: 4
     fields:
     - title: Title
@@ -2412,6 +3053,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 1
       fields:
       - title: Title
@@ -2467,6 +3114,12 @@ MonoBehaviour:
       outgoingLinks: []
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 2
       fields:
       - title: Title
@@ -2521,6 +3174,12 @@ MonoBehaviour:
       outgoingLinks: []
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
   - id: 5
     fields:
     - title: Title
@@ -2618,6 +3277,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 1
       fields:
       - title: Title
@@ -2678,6 +3343,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 2
       fields:
       - title: Title
@@ -2738,6 +3409,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 3
       fields:
       - title: Title
@@ -2780,6 +3457,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 4
       fields:
       - title: Title
@@ -2841,6 +3524,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 5
       fields:
       - title: Title
@@ -2901,6 +3590,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 6
       fields:
       - title: Title
@@ -2953,9 +3648,21 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 6
+        destinationConversationID: 5
+        destinationDialogueID: 11
+        isConnector: 1
+        priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 7
       fields:
       - title: Title
@@ -3017,6 +3724,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 8
       fields:
       - title: Title
@@ -3059,6 +3772,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 9
       fields:
       - title: Title
@@ -3111,9 +3830,21 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 9
+        destinationConversationID: 5
+        destinationDialogueID: 11
+        isConnector: 1
+        priority: 2
       conditionsString: 
-      userScript: 
+      userScript: reputation = reputation + 1
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 10
       fields:
       - title: Title
@@ -3166,9 +3897,401 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 10
+        destinationConversationID: 5
+        destinationDialogueID: 11
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: reputation = reputation - 1
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 11
+      fields:
+      - title: Title
+        value: Intro
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 4
+        type: 5
+      - title: Conversant
+        value: 4
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: "Pressing on, Brendan and his rebellion arrive outside the capitol,
+          where he is confronted by the Governess\u2019 forces, yet again.  The remnants
+          of her guard and other militia she gathered in the last two weeks gather
+          themselves outside the city gates, while the Governess looks on from high
+          up on the walls."
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Lipsync Files
+        value: '[]'
+        type: 3
+      - title: Animation Files
+        value: '[]'
+        type: 3
+      - title: Mood
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 11
+        destinationConversationID: 5
+        destinationDialogueID: 12
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 12
+      fields:
+      - title: Title
+        value: Finally here
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 3
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: "So the outlaws finally arrive.  It\u2019s nothing but mayhem with
+          you; first my city, and now my capital?  You dream big, but your rampage
+          is over."
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Lipsync Files
+        value: '[]'
+        type: 3
+      - title: Animation Files
+        value: '[]'
+        type: 3
+      - title: Mood
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 12
+        destinationConversationID: 5
+        destinationDialogueID: 13
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 13
+      fields:
+      - title: Title
+        value: Response
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 3
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Sequence
+        value: None()
+        type: 0
+      conversationID: 5
+      isRoot: 0
+      isGroup: 1
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 13
+        destinationConversationID: 5
+        destinationDialogueID: 14
+        isConnector: 0
+        priority: 2
+      - originConversationID: 5
+        originDialogueID: 13
+        destinationConversationID: 5
+        destinationDialogueID: 16
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 14
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 3
+        type: 5
+      - title: Menu Text
+        value: Not a rampage, freedom.
+        type: 0
+      - title: Dialogue Text
+        value: "The only thing that ends today is the Tzar\u2019s tyranny!"
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Lipsync Files
+        value: '[]'
+        type: 3
+      - title: Animation Files
+        value: '[]'
+        type: 3
+      - title: Mood
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 14
+        destinationConversationID: 5
+        destinationDialogueID: 15
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: reputation = reputation + 1
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 15
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 3
+        type: 5
+      - title: Conversant
+        value: 1
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: "We\u2019ll see, outlaw.  If you make it past these guards I\u2019ll
+          be waiting in the city.  But remember, these are disciplined soldiers.  And
+          order will always tame chaos."
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Lipsync Files
+        value: '[]'
+        type: 3
+      - title: Animation Files
+        value: '[]'
+        type: 3
+      - title: Mood
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 16
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 1
+        type: 5
+      - title: Conversant
+        value: 3
+        type: 5
+      - title: Menu Text
+        value: The rampage is over...
+        type: 0
+      - title: Dialogue Text
+        value: Your right, my rampage will be over, my rule will begin.
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Lipsync Files
+        value: '[]'
+        type: 3
+      - title: Animation Files
+        value: '[]'
+        type: 3
+      - title: Mood
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 16
+        destinationConversationID: 5
+        destinationDialogueID: 15
+        isConnector: 1
+        priority: 2
+      conditionsString: 
+      userScript: reputation = reputation - 1
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
   - id: 6
     fields:
     - title: Title
@@ -3266,6 +4389,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 1
       fields:
       - title: Title
@@ -3330,6 +4459,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 2
       fields:
       - title: Title
@@ -3392,6 +4527,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 3
       fields:
       - title: Title
@@ -3434,6 +4575,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 4
       fields:
       - title: Title
@@ -3493,7 +4640,13 @@ MonoBehaviour:
         isConnector: 1
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: reputation = reputation + 1
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 5
       fields:
       - title: Title
@@ -3553,7 +4706,13 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: reputation = reputation - 1
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 6
       fields:
       - title: Title
@@ -3610,6 +4769,12 @@ MonoBehaviour:
       outgoingLinks: []
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
   - id: 7
     fields:
     - title: Title
@@ -3707,6 +4872,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 1
       fields:
       - title: Title
@@ -3768,6 +4939,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 2
       fields:
       - title: Title
@@ -3810,6 +4987,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 3
       fields:
       - title: Title
@@ -3871,7 +5054,13 @@ MonoBehaviour:
         isConnector: 1
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: reputation = reputation + 1
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 4
       fields:
       - title: Title
@@ -3932,7 +5121,13 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: reputation = reputation - 1
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 5
       fields:
       - title: Title
@@ -3995,6 +5190,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 6
       fields:
       - title: Title
@@ -4037,6 +5238,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 7
       fields:
       - title: Title
@@ -4091,7 +5298,13 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: reputation = reputation + 1
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 8
       fields:
       - title: Title
@@ -4146,7 +5359,13 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: reputation = reputation - 1
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
   - id: 8
     fields:
     - title: Title
@@ -4242,8 +5461,20 @@ MonoBehaviour:
         destinationDialogueID: 1
         isConnector: 0
         priority: 2
+      - originConversationID: 8
+        originDialogueID: 0
+        destinationConversationID: 8
+        destinationDialogueID: 3
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 1
       fields:
       - title: Title
@@ -4301,8 +5532,80 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks: []
-      conditionsString: 
+      conditionsString: reputation >= 0
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 3
+      fields:
+      - title: Title
+        value: New Dialogue
+        type: 0
+      - title: Pictures
+        value: '[]'
+        type: 3
+      - title: Description
+        value: 
+        type: 0
+      - title: Actor
+        value: 4
+        type: 5
+      - title: Conversant
+        value: 4
+        type: 5
+      - title: Menu Text
+        value: 
+        type: 0
+      - title: Dialogue Text
+        value: On that day, Brezhnevstormed the castle, and slew the Tzar in his bed.  The
+          Tzar had been ill and feeble.  Another week and the fever may have done
+          the job on its own.  Nonetheless, Brezhnev kept to his word and took the
+          castle for himself.  He named himself Tzar, and the people cheered him on.  He
+          dreamed of a government that did not oppress its people, so he gave his
+          officers every privilege.  But between his zealous rage, and his officers
+          lusts, they had become the very monster they set out to destroy.
+        type: 4
+      - title: Parenthetical
+        value: 
+        type: 0
+      - title: Audio Files
+        value: '[]'
+        type: 3
+      - title: Video File
+        value: 
+        type: 0
+      - title: Lipsync Files
+        value: '[]'
+        type: 3
+      - title: Animation Files
+        value: '[]'
+        type: 3
+      - title: Mood
+        value: 
+        type: 0
+      - title: Sequence
+        value: 
+        type: 0
+      conversationID: 8
+      isRoot: 0
+      isGroup: 0
+      nodeColor: White
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: reputation < 0
+      userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
   - id: 9
     fields:
     - title: Title
@@ -4400,6 +5703,12 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     - id: 1
       fields:
       - title: Title
@@ -4460,3 +5769,9 @@ MonoBehaviour:
       outgoingLinks: []
       conditionsString: 
       userScript: 
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30

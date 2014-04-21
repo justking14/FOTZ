@@ -550,7 +550,7 @@
               <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="0" DestinationDialogID="9" IsConnector="false" />
             </OutgoingLinks>
             <ConditionsString />
-            <UserScript />
+            <UserScript>reputation = 0</UserScript>
           </DialogEntry>
           <DialogEntry ID="2" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
             <Fields>
@@ -783,7 +783,7 @@
               <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="5" DestinationDialogID="6" IsConnector="false" />
             </OutgoingLinks>
             <ConditionsString />
-            <UserScript />
+            <UserScript>reputation = reputation + 1</UserScript>
           </DialogEntry>
           <DialogEntry ID="6" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
             <Fields>
@@ -918,7 +918,7 @@
               <Link OriginConvoID="1" DestinationConvoID="1" OriginDialogID="7" DestinationDialogID="8" IsConnector="false" />
             </OutgoingLinks>
             <ConditionsString />
-            <UserScript />
+            <UserScript>reputation = reputation - 1</UserScript>
           </DialogEntry>
           <DialogEntry ID="8" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
             <Fields>
@@ -1396,7 +1396,7 @@
               <Link OriginConvoID="2" DestinationConvoID="2" OriginDialogID="3" DestinationDialogID="5" IsConnector="true" />
             </OutgoingLinks>
             <ConditionsString />
-            <UserScript />
+            <UserScript>reputation = reputation + 1</UserScript>
           </DialogEntry>
           <DialogEntry ID="4" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
             <Fields>
@@ -1463,7 +1463,7 @@
               <Link OriginConvoID="2" DestinationConvoID="2" OriginDialogID="4" DestinationDialogID="5" IsConnector="false" />
             </OutgoingLinks>
             <ConditionsString />
-            <UserScript />
+            <UserScript>reputation = reputation - 1</UserScript>
           </DialogEntry>
           <DialogEntry ID="5" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
             <Fields>
@@ -1696,7 +1696,7 @@
               <Link OriginConvoID="2" DestinationConvoID="2" OriginDialogID="8" DestinationDialogID="10" IsConnector="false" />
             </OutgoingLinks>
             <ConditionsString />
-            <UserScript />
+            <UserScript>reputation = reputation - 1</UserScript>
           </DialogEntry>
           <DialogEntry ID="9" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
             <Fields>
@@ -1763,7 +1763,7 @@
               <Link OriginConvoID="2" DestinationConvoID="2" OriginDialogID="9" DestinationDialogID="11" IsConnector="false" />
             </OutgoingLinks>
             <ConditionsString />
-            <UserScript />
+            <UserScript>reputation = reputation + 1</UserScript>
           </DialogEntry>
           <DialogEntry ID="10" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
             <Fields>
@@ -1960,7 +1960,9 @@
             </Fields>
             <ReviewerNotes />
             <ReviewerStatus>None</ReviewerStatus>
-            <OutgoingLinks />
+            <OutgoingLinks>
+              <Link OriginConvoID="2" DestinationConvoID="2" OriginDialogID="12" DestinationDialogID="14" IsConnector="true" />
+            </OutgoingLinks>
             <ConditionsString />
             <UserScript />
           </DialogEntry>
@@ -2025,9 +2027,441 @@
             </Fields>
             <ReviewerNotes />
             <ReviewerStatus>None</ReviewerStatus>
-            <OutgoingLinks />
+            <OutgoingLinks>
+              <Link OriginConvoID="2" DestinationConvoID="2" OriginDialogID="13" DestinationDialogID="14" IsConnector="false" />
+            </OutgoingLinks>
             <ConditionsString />
             <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="14" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value>New Dialogue</Value>
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>4</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>4</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>After their first victory, the newly formed rebellion spent little time celebrating.  They enjoyed only one night in the city before Brezhnev had them formed up and ready to move.   For the next week he trained them, from peasants to soldiers, and then he set his sights on the Tzar and the capital.  But what he found in the fields, was an ambush.</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Associated files for lip sync" Type="Files">
+                <Title>Lipsync Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="Associated animation files" Type="Files">
+                <Title>Animation Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="How does this line of dialogue make the actors feel?" Type="Text">
+                <Title>Mood</Title>
+                <Value />
+              </Field>
+              <Field Hint="Dialogue System for Unity cutscene sequence" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="2" DestinationConvoID="2" OriginDialogID="14" DestinationDialogID="15" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="15" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value>New Dialogue</Value>
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>1</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>Sir, the scouts have spotted guards in the fishing villages up ahead.</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Associated files for lip sync" Type="Files">
+                <Title>Lipsync Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="Associated animation files" Type="Files">
+                <Title>Animation Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="How does this line of dialogue make the actors feel?" Type="Text">
+                <Title>Mood</Title>
+                <Value />
+              </Field>
+              <Field Hint="Dialogue System for Unity cutscene sequence" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="2" DestinationConvoID="2" OriginDialogID="15" DestinationDialogID="16" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="16" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value>Trying again</Value>
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>1</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>So they attempt an ambush.  Who do they think they're dealing with?</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Associated files for lip sync" Type="Files">
+                <Title>Lipsync Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="Associated animation files" Type="Files">
+                <Title>Animation Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="How does this line of dialogue make the actors feel?" Type="Text">
+                <Title>Mood</Title>
+                <Value />
+              </Field>
+              <Field Hint="Dialogue System for Unity cutscene sequence" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="2" DestinationConvoID="2" OriginDialogID="16" DestinationDialogID="17" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="17" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value>Orders?</Value>
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>1</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>Orders, sir?</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Associated files for lip sync" Type="Files">
+                <Title>Lipsync Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="Associated animation files" Type="Files">
+                <Title>Animation Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="How does this line of dialogue make the actors feel?" Type="Text">
+                <Title>Mood</Title>
+                <Value />
+              </Field>
+              <Field Hint="Dialogue System for Unity cutscene sequence" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="2" DestinationConvoID="2" OriginDialogID="17" DestinationDialogID="18" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="18" IsRoot="false" IsGroup="true" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value>Option 3</Value>
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>1</Value>
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="2" DestinationConvoID="2" OriginDialogID="18" DestinationDialogID="19" IsConnector="false" />
+              <Link OriginConvoID="2" DestinationConvoID="2" OriginDialogID="18" DestinationDialogID="20" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="19" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value>New Dialogue</Value>
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>1</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value>Kill the soldiers.</Value>
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>They thought they could stop us, lets see them try.  Burn the villages if we have to.  Let none escape.  </Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Associated files for lip sync" Type="Files">
+                <Title>Lipsync Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="Associated animation files" Type="Files">
+                <Title>Animation Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="How does this line of dialogue make the actors feel?" Type="Text">
+                <Title>Mood</Title>
+                <Value />
+              </Field>
+              <Field Hint="Dialogue System for Unity cutscene sequence" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks />
+            <ConditionsString />
+            <UserScript>reputation = reputation - 1</UserScript>
+          </DialogEntry>
+          <DialogEntry ID="20" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value>Set them running</Value>
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>1</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>2</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value>Save the villages.</Value>
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>We'll set them running, and free the villages they've captured.</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Associated files for lip sync" Type="Files">
+                <Title>Lipsync Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="Associated animation files" Type="Files">
+                <Title>Animation Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="How does this line of dialogue make the actors feel?" Type="Text">
+                <Title>Mood</Title>
+                <Value />
+              </Field>
+              <Field Hint="Dialogue System for Unity cutscene sequence" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks />
+            <ConditionsString />
+            <UserScript>reputation = reputation + 1</UserScript>
           </DialogEntry>
         </DialogEntries>
       </Conversation>
@@ -2137,12 +2571,12 @@
             <ReviewerNotes />
             <ReviewerStatus>None</ReviewerStatus>
             <OutgoingLinks>
-              <Link OriginConvoID="3" DestinationConvoID="3" OriginDialogID="0" DestinationDialogID="1" IsConnector="false" />
+              <Link OriginConvoID="3" DestinationConvoID="3" OriginDialogID="0" DestinationDialogID="21" IsConnector="false" />
             </OutgoingLinks>
             <ConditionsString />
             <UserScript />
           </DialogEntry>
-          <DialogEntry ID="1" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+          <DialogEntry ID="21" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
             <Fields>
               <Field Hint="The title of this dialogue." Type="Text">
                 <Title>Title</Title>
@@ -2204,12 +2638,12 @@
             <ReviewerNotes />
             <ReviewerStatus>None</ReviewerStatus>
             <OutgoingLinks>
-              <Link OriginConvoID="3" DestinationConvoID="3" OriginDialogID="1" DestinationDialogID="2" IsConnector="false" />
+              <Link OriginConvoID="3" DestinationConvoID="3" OriginDialogID="21" DestinationDialogID="22" IsConnector="false" />
             </OutgoingLinks>
             <ConditionsString />
             <UserScript />
           </DialogEntry>
-          <DialogEntry ID="2" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+          <DialogEntry ID="22" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
             <Fields>
               <Field Hint="The title of this dialogue." Type="Text">
                 <Title>Title</Title>
@@ -2271,12 +2705,12 @@
             <ReviewerNotes />
             <ReviewerStatus>None</ReviewerStatus>
             <OutgoingLinks>
-              <Link OriginConvoID="3" DestinationConvoID="3" OriginDialogID="2" DestinationDialogID="3" IsConnector="false" />
+              <Link OriginConvoID="3" DestinationConvoID="3" OriginDialogID="22" DestinationDialogID="23" IsConnector="false" />
             </OutgoingLinks>
             <ConditionsString />
             <UserScript />
           </DialogEntry>
-          <DialogEntry ID="3" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+          <DialogEntry ID="23" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
             <Fields>
               <Field Hint="The title of this dialogue." Type="Text">
                 <Title>Title</Title>
@@ -2338,12 +2772,12 @@
             <ReviewerNotes />
             <ReviewerStatus>None</ReviewerStatus>
             <OutgoingLinks>
-              <Link OriginConvoID="3" DestinationConvoID="3" OriginDialogID="3" DestinationDialogID="4" IsConnector="false" />
+              <Link OriginConvoID="3" DestinationConvoID="3" OriginDialogID="23" DestinationDialogID="24" IsConnector="false" />
             </OutgoingLinks>
             <ConditionsString />
             <UserScript />
           </DialogEntry>
-          <DialogEntry ID="4" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+          <DialogEntry ID="24" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
             <Fields>
               <Field Hint="The title of this dialogue." Type="Text">
                 <Title>Title</Title>
@@ -2405,16 +2839,16 @@
             <ReviewerNotes />
             <ReviewerStatus>None</ReviewerStatus>
             <OutgoingLinks>
-              <Link OriginConvoID="3" DestinationConvoID="3" OriginDialogID="4" DestinationDialogID="5" IsConnector="false" />
+              <Link OriginConvoID="3" DestinationConvoID="3" OriginDialogID="24" DestinationDialogID="25" IsConnector="false" />
             </OutgoingLinks>
             <ConditionsString />
             <UserScript />
           </DialogEntry>
-          <DialogEntry ID="5" IsRoot="false" IsGroup="true" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+          <DialogEntry ID="25" IsRoot="false" IsGroup="true" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
             <Fields>
               <Field Hint="The title of this dialogue." Type="Text">
                 <Title>Title</Title>
-                <Value>Option 1</Value>
+                <Value>Option 3</Value>
               </Field>
               <Field Hint="A collection of image files that represent this dialogue." Type="Files">
                 <Title>Pictures</Title>
@@ -2436,13 +2870,13 @@
             <ReviewerNotes />
             <ReviewerStatus>None</ReviewerStatus>
             <OutgoingLinks>
-              <Link OriginConvoID="3" DestinationConvoID="3" OriginDialogID="5" DestinationDialogID="6" IsConnector="false" />
-              <Link OriginConvoID="3" DestinationConvoID="3" OriginDialogID="5" DestinationDialogID="7" IsConnector="false" />
+              <Link OriginConvoID="3" DestinationConvoID="3" OriginDialogID="25" DestinationDialogID="26" IsConnector="false" />
+              <Link OriginConvoID="3" DestinationConvoID="3" OriginDialogID="25" DestinationDialogID="27" IsConnector="false" />
             </OutgoingLinks>
             <ConditionsString />
             <UserScript />
           </DialogEntry>
-          <DialogEntry ID="6" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+          <DialogEntry ID="26" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
             <Fields>
               <Field Hint="The title of this dialogue." Type="Text">
                 <Title>Title</Title>
@@ -2505,9 +2939,9 @@
             <ReviewerStatus>None</ReviewerStatus>
             <OutgoingLinks />
             <ConditionsString />
-            <UserScript />
+            <UserScript>reputation = reputation - 1</UserScript>
           </DialogEntry>
-          <DialogEntry ID="7" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+          <DialogEntry ID="27" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
             <Fields>
               <Field Hint="The title of this dialogue." Type="Text">
                 <Title>Title</Title>
@@ -2570,7 +3004,7 @@
             <ReviewerStatus>None</ReviewerStatus>
             <OutgoingLinks />
             <ConditionsString />
-            <UserScript />
+            <UserScript>reputation = reputation + 1</UserScript>
           </DialogEntry>
         </DialogEntries>
       </Conversation>
@@ -3290,7 +3724,9 @@
             </Fields>
             <ReviewerNotes />
             <ReviewerStatus>None</ReviewerStatus>
-            <OutgoingLinks />
+            <OutgoingLinks>
+              <Link OriginConvoID="5" DestinationConvoID="5" OriginDialogID="6" DestinationDialogID="11" IsConnector="true" />
+            </OutgoingLinks>
             <ConditionsString />
             <UserScript />
           </DialogEntry>
@@ -3454,9 +3890,11 @@
             </Fields>
             <ReviewerNotes />
             <ReviewerStatus>None</ReviewerStatus>
-            <OutgoingLinks />
+            <OutgoingLinks>
+              <Link OriginConvoID="5" DestinationConvoID="5" OriginDialogID="9" DestinationDialogID="11" IsConnector="true" />
+            </OutgoingLinks>
             <ConditionsString />
-            <UserScript />
+            <UserScript>reputation = reputation + 1</UserScript>
           </DialogEntry>
           <DialogEntry ID="10" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
             <Fields>
@@ -3519,9 +3957,376 @@
             </Fields>
             <ReviewerNotes />
             <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="5" DestinationConvoID="5" OriginDialogID="10" DestinationDialogID="11" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript>reputation = reputation - 1</UserScript>
+          </DialogEntry>
+          <DialogEntry ID="11" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value>Intro</Value>
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>4</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>4</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>Pressing on, Brendan and his rebellion arrive outside the capitol, where he is confronted by the Governess’ forces, yet again.  The remnants of her guard and other militia she gathered in the last two weeks gather themselves outside the city gates, while the Governess looks on from high up on the walls.</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Associated files for lip sync" Type="Files">
+                <Title>Lipsync Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="Associated animation files" Type="Files">
+                <Title>Animation Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="How does this line of dialogue make the actors feel?" Type="Text">
+                <Title>Mood</Title>
+                <Value />
+              </Field>
+              <Field Hint="Dialogue System for Unity cutscene sequence" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="5" DestinationConvoID="5" OriginDialogID="11" DestinationDialogID="12" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="12" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value>Finally here</Value>
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>1</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>So the outlaws finally arrive.  It’s nothing but mayhem with you; first my city, and now my capital?  You dream big, but your rampage is over.</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Associated files for lip sync" Type="Files">
+                <Title>Lipsync Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="Associated animation files" Type="Files">
+                <Title>Animation Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="How does this line of dialogue make the actors feel?" Type="Text">
+                <Title>Mood</Title>
+                <Value />
+              </Field>
+              <Field Hint="Dialogue System for Unity cutscene sequence" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="5" DestinationConvoID="5" OriginDialogID="12" DestinationDialogID="13" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="13" IsRoot="false" IsGroup="true" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value>Response</Value>
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>1</Value>
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="5" DestinationConvoID="5" OriginDialogID="13" DestinationDialogID="14" IsConnector="false" />
+              <Link OriginConvoID="5" DestinationConvoID="5" OriginDialogID="13" DestinationDialogID="16" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="14" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value>New Dialogue</Value>
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>1</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value>Not a rampage, freedom.</Value>
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>The only thing that ends today is the Tzar’s tyranny!</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Associated files for lip sync" Type="Files">
+                <Title>Lipsync Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="Associated animation files" Type="Files">
+                <Title>Animation Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="How does this line of dialogue make the actors feel?" Type="Text">
+                <Title>Mood</Title>
+                <Value />
+              </Field>
+              <Field Hint="Dialogue System for Unity cutscene sequence" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="5" DestinationConvoID="5" OriginDialogID="14" DestinationDialogID="15" IsConnector="false" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript>reputation = reputation + 1</UserScript>
+          </DialogEntry>
+          <DialogEntry ID="15" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value>New Dialogue</Value>
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>1</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>We’ll see, outlaw.  If you make it past these guards I’ll be waiting in the city.  But remember, these are disciplined soldiers.  And order will always tame chaos.</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Associated files for lip sync" Type="Files">
+                <Title>Lipsync Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="Associated animation files" Type="Files">
+                <Title>Animation Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="How does this line of dialogue make the actors feel?" Type="Text">
+                <Title>Mood</Title>
+                <Value />
+              </Field>
+              <Field Hint="Dialogue System for Unity cutscene sequence" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
             <OutgoingLinks />
             <ConditionsString />
             <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="16" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value>New Dialogue</Value>
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>1</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>3</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value>The rampage is over...</Value>
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>Your right, my rampage will be over, my rule will begin.</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Associated files for lip sync" Type="Files">
+                <Title>Lipsync Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="Associated animation files" Type="Files">
+                <Title>Animation Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="How does this line of dialogue make the actors feel?" Type="Text">
+                <Title>Mood</Title>
+                <Value />
+              </Field>
+              <Field Hint="Dialogue System for Unity cutscene sequence" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks>
+              <Link OriginConvoID="5" DestinationConvoID="5" OriginDialogID="16" DestinationDialogID="15" IsConnector="true" />
+            </OutgoingLinks>
+            <ConditionsString />
+            <UserScript>reputation = reputation - 1</UserScript>
           </DialogEntry>
         </DialogEntries>
       </Conversation>
@@ -3871,7 +4676,7 @@
               <Link OriginConvoID="6" DestinationConvoID="6" OriginDialogID="4" DestinationDialogID="6" IsConnector="true" />
             </OutgoingLinks>
             <ConditionsString />
-            <UserScript />
+            <UserScript>reputation = reputation + 1</UserScript>
           </DialogEntry>
           <DialogEntry ID="5" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
             <Fields>
@@ -3938,7 +4743,7 @@
               <Link OriginConvoID="6" DestinationConvoID="6" OriginDialogID="5" DestinationDialogID="6" IsConnector="false" />
             </OutgoingLinks>
             <ConditionsString />
-            <UserScript />
+            <UserScript>reputation = reputation - 1</UserScript>
           </DialogEntry>
           <DialogEntry ID="6" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
             <Fields>
@@ -4286,7 +5091,7 @@
               <Link OriginConvoID="7" DestinationConvoID="7" OriginDialogID="3" DestinationDialogID="5" IsConnector="true" />
             </OutgoingLinks>
             <ConditionsString />
-            <UserScript />
+            <UserScript>reputation = reputation + 1</UserScript>
           </DialogEntry>
           <DialogEntry ID="4" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
             <Fields>
@@ -4353,7 +5158,7 @@
               <Link OriginConvoID="7" DestinationConvoID="7" OriginDialogID="4" DestinationDialogID="5" IsConnector="false" />
             </OutgoingLinks>
             <ConditionsString />
-            <UserScript />
+            <UserScript>reputation = reputation - 1</UserScript>
           </DialogEntry>
           <DialogEntry ID="5" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
             <Fields>
@@ -4517,7 +5322,7 @@
             <ReviewerStatus>None</ReviewerStatus>
             <OutgoingLinks />
             <ConditionsString />
-            <UserScript />
+            <UserScript>reputation = reputation + 1</UserScript>
           </DialogEntry>
           <DialogEntry ID="8" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
             <Fields>
@@ -4582,7 +5387,7 @@
             <ReviewerStatus>None</ReviewerStatus>
             <OutgoingLinks />
             <ConditionsString />
-            <UserScript />
+            <UserScript>reputation = reputation - 1</UserScript>
           </DialogEntry>
         </DialogEntries>
       </Conversation>
@@ -4697,6 +5502,7 @@
             <ReviewerStatus>None</ReviewerStatus>
             <OutgoingLinks>
               <Link OriginConvoID="8" DestinationConvoID="8" OriginDialogID="0" DestinationDialogID="1" IsConnector="false" />
+              <Link OriginConvoID="8" DestinationConvoID="8" OriginDialogID="0" DestinationDialogID="3" IsConnector="false" />
             </OutgoingLinks>
             <ConditionsString />
             <UserScript />
@@ -4763,7 +5569,72 @@
             <ReviewerNotes />
             <ReviewerStatus>None</ReviewerStatus>
             <OutgoingLinks />
-            <ConditionsString />
+            <ConditionsString>reputation &gt;= 0</ConditionsString>
+            <UserScript />
+          </DialogEntry>
+          <DialogEntry ID="3" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
+            <Fields>
+              <Field Hint="The title of this dialogue." Type="Text">
+                <Title>Title</Title>
+                <Value>New Dialogue</Value>
+              </Field>
+              <Field Hint="A collection of image files that represent this dialogue." Type="Files">
+                <Title>Pictures</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A short description of what happens in this dialogue." Type="Text">
+                <Title>Description</Title>
+                <Value />
+              </Field>
+              <Field Hint="The actor who is talking." Type="Actor">
+                <Title>Actor</Title>
+                <Value>4</Value>
+              </Field>
+              <Field Hint="The actor who is listening." Type="Actor">
+                <Title>Conversant</Title>
+                <Value>4</Value>
+              </Field>
+              <Field Hint="The text that is displayd to the player in a list as a dialogue option." Type="Text">
+                <Title>Menu Text</Title>
+                <Value />
+              </Field>
+              <Field Hint="The text that is spoken by the actor." Type="Localization">
+                <Title>Dialogue Text</Title>
+                <Value>On that day, Brezhnevstormed the castle, and slew the Tzar in his bed.  The Tzar had been ill and feeble.  Another week and the fever may have done the job on its own.  Nonetheless, Brezhnev kept to his word and took the castle for himself.  He named himself Tzar, and the people cheered him on.  He dreamed of a government that did not oppress its people, so he gave his officers every privilege.  But between his zealous rage, and his officers lusts, they had become the very monster they set out to destroy.</Value>
+              </Field>
+              <Field Hint="A description of what is going on during this dialogue." Type="Text">
+                <Title>Parenthetical</Title>
+                <Value />
+              </Field>
+              <Field Hint="A collection of audio files that should be played during this dialogue." Type="Files">
+                <Title>Audio Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="A WMV video file to be played for this dialogue." Type="Text">
+                <Title>Video File</Title>
+                <Value />
+              </Field>
+              <Field Hint="Associated files for lip sync" Type="Files">
+                <Title>Lipsync Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="Associated animation files" Type="Files">
+                <Title>Animation Files</Title>
+                <Value>[]</Value>
+              </Field>
+              <Field Hint="How does this line of dialogue make the actors feel?" Type="Text">
+                <Title>Mood</Title>
+                <Value />
+              </Field>
+              <Field Hint="Dialogue System for Unity cutscene sequence" Type="Text">
+                <Title>Sequence</Title>
+                <Value />
+              </Field>
+            </Fields>
+            <ReviewerNotes />
+            <ReviewerStatus>None</ReviewerStatus>
+            <OutgoingLinks />
+            <ConditionsString>reputation &lt; 0</ConditionsString>
             <UserScript />
           </DialogEntry>
         </DialogEntries>
