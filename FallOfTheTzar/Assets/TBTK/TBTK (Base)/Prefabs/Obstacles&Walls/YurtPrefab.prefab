@@ -11,9 +11,8 @@ GameObject:
   - 33: {fileID: 3300000}
   - 23: {fileID: 2300000}
   - 95: {fileID: 9500000}
-  - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: WallHexHalf
+  m_Name: YurtPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,8 +25,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.4675274, y: 32.3212357, z: -26.4542522}
-  m_LocalScale: {x: .56997782, y: 1, z: 1}
+  m_LocalPosition: {x: -10.1286983, y: -6.2901907, z: 16.862793}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!23 &2300000
@@ -42,7 +41,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 593a8a42cbbf72146b1b4894dca17616, type: 2}
+  - {fileID: 2100000, guid: aba8be75a8c5f2345a821cf215a55af3, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -57,7 +56,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Mesh: {fileID: 4300000, guid: 6710559268f1e5e4b9b80098cb6018c7, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 10a29cffcc2074b41a571c552ab66b7d, type: 3}
 --- !u!95 &9500000
 Animator:
   serializedVersion: 2
@@ -66,30 +65,12 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 6710559268f1e5e4b9b80098cb6018c7, type: 3}
+  m_Avatar: {fileID: 9000000, guid: 10a29cffcc2074b41a571c552ab66b7d, type: 3}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89b43b115115de44a8157b4f732f96dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obsName: obstacle
-  prefabID: -1
-  coverType: 1
-  obsType: 1
-  tileType: 0
-  occupiedTile: {fileID: 0}
-  adjacentObs: []
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
