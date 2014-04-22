@@ -1,16 +1,16 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\TBTK\TBTK (Base)\Scripts\C#\AudioManager.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\TBTK\TBTK (Base)\Scripts\C#\UI\UIOverlay.cs">
     <Files>
       <File FileName="FallOfTheTzar.sln" Line="1" Column="1" />
-      <File FileName="Assets\TBTK\TBTK (Base)\Scripts\C#\AudioManager.cs" Line="128" Column="17" />
+      <File FileName="Assets\TBTK\TBTK (Base)\Scripts\C#\AudioManager.cs" Line="1" Column="1" />
       <File FileName="Assets\TBTK\TBTK (Base)\Scripts\Misc\FallOfTheTzarMainMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets\TBTK\TBTK (Base)\Scripts\C#\UI\UIOverlay.cs" Line="1" Column="1" />
+      <File FileName="Assets\TBTK\TBTK (Base)\Scripts\C#\UI\UIOverlay.cs" Line="300" Column="107" />
       <File FileName="Assets\TBTK\TBTK (Base)\Scripts\C#\GameControlTB.cs" Line="1" Column="1" />
       <File FileName="Assets\TBTK\TBTK (Base)\Scripts\C#\Editor\GameControlEditor.cs" Line="1" Column="1" />
       <File FileName="Assets\TBTK\TBTK (Base)\Scripts\C#\UnitControl.cs" Line="1" Column="1" />
       <File FileName="Assets\TBTK\TBTK (Base)\Scripts\C#\UI\UIGameOver.cs" Line="1" Column="1" />
-      <File FileName="Assets\TBTK\TBTK (Base)\Scripts\Misc\LevelTracker.cs" Line="3" Column="1" />
+      <File FileName="Assets\TBTK\TBTK (Base)\Scripts\Misc\LevelTracker.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
