@@ -39,7 +39,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obstacleList:
-  - {fileID: 11400000, guid: 706c174330f855f42977358d1c21b38a, type: 2}
   - {fileID: 11400000, guid: 46cf40fa1015074479d8bddc1d7d93d1, type: 2}
   - {fileID: 11400000, guid: 15f7030c70de7d445a056d03916c5f4d, type: 2}
   - {fileID: 11400000, guid: d12bf955203781e41b24dce9c657a69b, type: 2}
@@ -50,6 +49,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ace3235d5ba432f459379660e71a914a, type: 2}
   - {fileID: 11400000, guid: e271e5e84da51fa4682d880f635e8a4f, type: 2}
   - {fileID: 11400000, guid: 906bce424cdafeb4086c8e557d4a8a7c, type: 2}
+  - {fileID: 11400000, guid: 77f4101b120788f4dbd8b613704227a7, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

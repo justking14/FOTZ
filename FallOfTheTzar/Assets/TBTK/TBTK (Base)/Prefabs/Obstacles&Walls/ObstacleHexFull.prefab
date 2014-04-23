@@ -190,14 +190,13 @@ GameObject:
   - 33: {fileID: 3300010}
   - 23: {fileID: 2300010}
   - 95: {fileID: 9500004}
-  - 114: {fileID: 11400002}
   m_Layer: 0
-  m_Name: WallHexHalf
+  m_Name: Stone Barrier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &400000
 Transform:
   m_ObjectHideFlags: 1
@@ -336,9 +335,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100022}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.4675274, y: 32.3212357, z: -26.4542522}
-  m_LocalScale: {x: .56997782, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .000129318243, y: .270021528, z: -.000470733823}
+  m_LocalScale: {x: 11, y: 11, z: 10}
   m_Children: []
   m_Father: {fileID: 400000}
 --- !u!23 &2300000
@@ -458,7 +457,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 593a8a42cbbf72146b1b4894dca17616, type: 2}
+  - {fileID: 2100000, guid: ad7519ed9bbef1a418224400a94e0861, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -508,7 +507,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100022}
-  m_Mesh: {fileID: 4300000, guid: 6710559268f1e5e4b9b80098cb6018c7, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 21d3e1cdba58d0c41941fdf1bfa4187f, type: 3}
 --- !u!95 &9500000
 Animator:
   serializedVersion: 2
@@ -545,7 +544,7 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100022}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 6710559268f1e5e4b9b80098cb6018c7, type: 3}
+  m_Avatar: {fileID: 9000000, guid: 21d3e1cdba58d0c41941fdf1bfa4187f, type: 3}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
@@ -566,24 +565,6 @@ MonoBehaviour:
   prefabID: 1
   coverType: 2
   obsType: 0
-  tileType: 0
-  occupiedTile: {fileID: 0}
-  adjacentObs: []
---- !u!114 &11400002
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89b43b115115de44a8157b4f732f96dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obsName: obstacle
-  prefabID: -1
-  coverType: 1
-  obsType: 1
   tileType: 0
   occupiedTile: {fileID: 0}
   adjacentObs: []
