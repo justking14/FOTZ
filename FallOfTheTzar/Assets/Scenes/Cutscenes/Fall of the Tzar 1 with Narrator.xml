@@ -1297,7 +1297,7 @@
               <Link OriginConvoID="2" DestinationConvoID="2" OriginDialogID="1" DestinationDialogID="2" IsConnector="false" />
             </OutgoingLinks>
             <ConditionsString />
-            <UserScript />
+            <UserScript>if reputation == nil then reputation = 0 end</UserScript>
           </DialogEntry>
           <DialogEntry ID="2" IsRoot="false" IsGroup="true" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
             <Fields>
@@ -3428,7 +3428,7 @@
               <Link OriginConvoID="5" DestinationConvoID="5" OriginDialogID="1" DestinationDialogID="2" IsConnector="false" />
             </OutgoingLinks>
             <ConditionsString />
-            <UserScript />
+            <UserScript>if reputation == nil then reputation = 0 end</UserScript>
           </DialogEntry>
           <DialogEntry ID="2" IsRoot="false" IsGroup="false" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
             <Fields>
@@ -4992,7 +4992,7 @@
               <Link OriginConvoID="7" DestinationConvoID="7" OriginDialogID="1" DestinationDialogID="2" IsConnector="false" />
             </OutgoingLinks>
             <ConditionsString />
-            <UserScript />
+            <UserScript>if reputation == nil then reputation = 0 end</UserScript>
           </DialogEntry>
           <DialogEntry ID="2" IsRoot="false" IsGroup="true" NodeColor="White" DelaySimStatus="false" FalseCondtionAction="Block" ConditionPriority="Normal">
             <Fields>
