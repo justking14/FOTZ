@@ -229,17 +229,11 @@ MonoBehaviour:
   customSkin: {fileID: 11400000, guid: 67a334a737561f14aa8bc6beacd65b18, type: 2}
   tooltip:
   - Start a new adventure
-  - Continue where you left off
-  - Replay a battle you've already unlocked
   names:
   - New Campaign
-  - Continue Campaign
-  - Level Select
   levelLoad:
   - LevelOne
-  - Continue
-  - LevelSelect
-  menuItems: 3
+  menuItems: 1
   useNGUIScene: 0
 --- !u!114 &1361602221
 MonoBehaviour:
