@@ -1204,7 +1204,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: if reputation == nil then reputation = 0 end
       canvasRect:
         serializedVersion: 2
         x: 0
@@ -3342,7 +3342,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: if reputation == nil then reputation = 0 end
       canvasRect:
         serializedVersion: 2
         x: 0
@@ -4938,7 +4938,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: if reputation == nil then reputation = 0 end
       canvasRect:
         serializedVersion: 2
         x: 0
