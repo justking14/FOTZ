@@ -16,6 +16,7 @@ public class UIUnitPlacement : MonoBehaviour {
 	}
 	
 	void OnGUI(){
+		GUI.depth = 0;
 		List<UnitTB> list=UnitControl.GetUnplacedUnit();
 		
 		GUIStyle style=new GUIStyle();
@@ -25,6 +26,7 @@ public class UIUnitPlacement : MonoBehaviour {
 		int height=180;
 		
 		if(list.Count>0){
+
 			UnitTB sUnit=list[UnitControl.GetUnitPlacementID()];
 
 			for(int i=0; i<3; i++) GUI.Box(new Rect(Screen.width/2-width/2, Screen.height-185, width, height), "");
@@ -79,6 +81,7 @@ public class UIUnitPlacement : MonoBehaviour {
 				
 			}
 		}
+		GUI.depth = 1;
 	}
 	
 }
