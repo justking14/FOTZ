@@ -296,16 +296,20 @@ public class UIOverlay : MonoBehaviour {
 			
 
 			styleA.fontSize=20;	styleA.normal.textColor=UI.colorH;	styleA.alignment=TextAnchor.UpperCenter;
-
-
-			GUI.Box(new Rect(startPosX-x_offset-25,startPosY+y_offset,140,140),"");
+			getMousePos();
 			
+			int b_2_offset = 200;
+			Rect r1 = new Rect(startPosX-x_offset-25,startPosY+y_offset,140,140);
+			Rect r2 = new Rect(startPosX-x_offset-55,startPosY+y_offset+b_2_offset,200,110);
+
+			if(!(r1.Contains(Event.current.mousePosition))){
+				GUI.Box(r1,"");
+			}
 			GUI.Label(new Rect(startPosX-x_offset-25,startPosY+y_offset,140,140),"\n HP:"+UnitControl.selectedUnit.HP+"/" +UnitControl.selectedUnit.GetFullHP()+"\n AP:" + UnitControl.selectedUnit.AP + "/"+UnitControl.selectedUnit.GetFullAP() + "\n Moves:"+UnitControl.selectedUnit.moveRemain + "\n Attacks:"+UnitControl.selectedUnit.attackRemain,styleA);
 
-			int b_2_offset = 200;
-
-			GUI.Box(new Rect(startPosX-x_offset-55,startPosY+y_offset+b_2_offset,200,110),"");
-
+			if(!(r2.Contains(Event.current.mousePosition))){
+				GUI.Box(r2,"");
+			}
 			string stragnst;	//strong against
 			switch(UnitControl.selectedUnit.unitName){
 			case "Outlaw Archer":
