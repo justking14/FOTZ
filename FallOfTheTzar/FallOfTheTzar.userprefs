@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\TBTK\TBTK (Base)\Scripts\C#\UI\UIUnitPlacement.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\skip.cs">
     <Files>
       <File FileName="Assets\TBTK\TBTK (Base)\Scripts\C#\UI\UIUnitPlacement.cs" Line="19" Column="16" />
+      <File FileName="Assets\skip.cs" Line="14" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
